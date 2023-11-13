@@ -15,7 +15,7 @@ header{
     flex: 1;
 }
 #quebraCabecaEsquerdo-header{
-    width: 432px;
+    width: 343px;
     height: 633px;
 }
 .containerNav{
@@ -103,6 +103,17 @@ main > a > .containerBM > .botaoMaterial > h2{
 main > a > .containerBM > .botaoMaterial > h2:hover{
     color: rgb(255, 255, 255);
 }
+@keyframes icone{
+    2% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(-20deg);
+    }
+    18% {
+        transform: rotate(0deg);
+    }
+}
 .bgIcone{
     width: 30px;
     height: 30px;
@@ -112,6 +123,9 @@ main > a > .containerBM > .botaoMaterial > h2:hover{
     align-items: center;
     justify-content: center;
     margin: -18px 0 0 -10px;
+}
+.bgIcone:hover{
+    animation: icone 2s infinite;
 }
 .bgIcone > img{
     width: 22px;
@@ -209,4 +223,43 @@ footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
 footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     width: 150px;
     height: 182px;
+}
+
+@media (min-width: 1200px) {
+    main > a > .containerBM > .botaoMaterial{
+        width: 394px;
+        height: 67px;
+    }
+    main > a > .containerBM > .botaoMaterial > h2{
+        font-size: 26px;
+    }
+    footer > .containerBgFooter{
+        width: 900px;
+        height: 740px;
+    }
+    footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
+        margin: 0 60px 0 50px;
+    }
+}
+@media (min-width: 992px){
+    #quebraCabecaEsquerdo-header{
+        width: 278px;
+        height: 586px;
+    }
+    body > header > .containerNav > nav{
+        width: 408px;
+    }
+    body > header > .containerNav > nav > a > img{
+        margin: 0 14px 0 8px;
+    }
+    #quebraCabecaDireito-header{
+        width: 240px;
+        height: 330px;
+    }
+    footer > .containerBgFooter{
+        width: 850px;
+    }
+    footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
+        margin: 0 68px 0 30px;
+    }
 }
