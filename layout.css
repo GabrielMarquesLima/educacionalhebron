@@ -225,7 +225,7 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     height: 182px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
     main > a > .containerBM > .botaoMaterial{
         width: 394px;
         height: 67px;
@@ -241,10 +241,10 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         margin: 0 60px 0 50px;
     }
 }
-@media (min-width: 992px){
-    #quebraCabecaEsquerdo-header{
-        width: 278px;
-        height: 586px;
+@media (min-width: 992px) and (max-width: 1199px){
+    #quebraCabecaEsquerdo-header{   
+        width: 283px;
+        height: 573px;
     }
     body > header > .containerNav > nav{
         width: 408px;
@@ -253,13 +253,60 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         margin: 0 14px 0 8px;
     }
     #quebraCabecaDireito-header{
-        width: 240px;
+        width: 248px;
         height: 330px;
+        margin-right: 12px;
     }
     footer > .containerBgFooter{
         width: 850px;
     }
     footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
         margin: 0 68px 0 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #quebraCabecaEsquerdo-header{
+        width: 203px;
+        height: 369px;
+    }
+    body > header > .containerNav{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    body > header > .containerNav > nav{
+        width: 378px;
+    }
+    body > header > .containerNav > nav > a > img{
+        margin: 0 12px 0 6px;
+    }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    #quebraCabecaDireito-header{
+        width: 150px;
+        height: 204px;
+        margin: 24px 8px 0 0;
+    }
+    main > a > .containerBM > .botaoMaterial{
+        width: 340px;
+        height: 52px;
+    }
+    main > a > .containerBM > .botaoMaterial > h2{
+        font-size: 22px;
+    }
+    footer > .containerBgFooter{
+        width: 650px;
+        height: 1200px;
+    }
+    footer > .containerBgFooter > .logoBaixo{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
+        margin: 0;
     }
 }
