@@ -310,3 +310,309 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         margin: 0;
     }
 }
+@media (min-width: 576px) and (max-width: 767px){
+    #quebraCabecaEsquerdo-header{
+        width: 135px;
+        height: 250px;
+    }
+    body > header > .containerNav{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    body > header > .containerNav > nav{
+        width: 340px;
+    }
+    body > header > .containerNav > nav > a > img{
+        margin: 0 8px 0 4px;
+    }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 19px;
+        text-align: center;
+    }
+    #quebraCabecaDireito-header{
+        width: 150px;
+        height: 204px;
+        margin: 24px 8px 0 0;
+    }
+    main > a > .containerBM > .botaoMaterial{
+        width: 300px;
+        height: 52px;
+    }
+    main > a > .containerBM > .botaoMaterial > h2{
+        font-size: 20px;
+    }
+    main > a > .containerBM > .bgIcone{
+        width: 24px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    main > a > .containerBM > .bgIcone > img{
+        width: 18px;
+        height: 18px;
+    }
+    footer > .containerBgFooter{
+        width: 100vw;
+        height: 1200px;
+        border-radius: 0 ;
+    }
+    footer > .containerBgFooter > h3{
+        min-width: 80vw;
+        font-size: 15px;
+    }
+    footer > .containerBgFooter > .bgParceiros{
+        width: 140px;
+        height: 50px;
+    }
+    footer > .containerBgFooter > .bgParceiros > h2{
+        font-size: 22px;
+    }
+    footer > .containerBgFooter > .logoBaixo{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
+        margin: 0;
+    }
+}
+@media (min-width: 400px) and (max-width: 575px){
+    #quebraCabecaEsquerdo-header{
+        width: 135px;
+        height: 250px;
+    }
+    body > header > .containerNav{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    body > header > .containerNav > nav{
+        width: 310px;
+        height: 40px;
+        border-radius: 8px;
+        justify-content: space-around;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+    body > header > .containerNav > nav > a > img{
+        width: 24px;
+        height: 24px;
+        margin: 0 6px 0 0;
+    }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    #quebraCabecaDireito-header{
+            width: 150px;
+            height: 204px;
+            margin: 24px 8px 0 0;
+    }
+    main > a > .containerBM > .botaoMaterial{
+        width: 300px;
+        height: 52px;
+    }
+    main > a > .containerBM > .botaoMaterial > h2{
+        font-size: 20px;
+    }
+    main > a > .containerBM > .bgIcone{
+        width: 24px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    main > a > .containerBM > .bgIcone > img{
+        width: 18px;
+        height: 18px;
+    }
+    footer > img{
+        width: 40px;
+        height: 56px;
+    }
+    footer > .containerBgFooter{
+        width: 100vw;
+        height: 1200px;
+        border-radius: 0;
+    }
+    footer > .containerBgFooter > h3{
+        min-width: 90%;
+        font-size: 15px;
+    }
+    footer > .containerBgFooter > hr{
+        width: 80vw;
+    }
+    footer > .containerBgFooter > .bgParceiros{
+        width: 140px;
+        height: 50px;
+    }
+    footer > .containerBgFooter > .bgParceiros > h2{
+        font-size: 22px;
+    }
+    footer > .containerBgFooter > .logoBaixo{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
+        margin: 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 399px){
+    #quebraCabecaEsquerdo-header{
+        width: 135px;
+        height: 250px;
+    }
+    body > header > .containerNav{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    body > header > .containerNav > nav{
+        width: 310px;
+        height: 40px;
+        border-radius: 8px;
+        justify-content: space-around;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+    body > header > .containerNav > nav > a > img{
+        width: 24px;
+        height: 24px;
+        margin: 0 6px 0 0;
+    }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    #quebraCabecaDireito-header{
+        display: none;
+    }
+    main > a > .containerBM > .botaoMaterial{
+        width: 300px;
+        height: 52px;
+    }
+    main > a > .containerBM > .botaoMaterial > h2{
+        font-size: 20px;
+    }
+    main > a > .containerBM > .bgIcone{
+        width: 24px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    main > a > .containerBM > .bgIcone > img{
+        width: 18px;
+        height: 18px;
+    }
+    footer > img{
+        width: 40px;
+        height: 56px;
+    }
+    footer > .containerBgFooter{
+        width: 100vw;
+        height: 1200px;
+        border-radius: 0 ;
+    }
+    footer > .containerBgFooter > h3{
+        min-width: 80vw;
+        font-size: 15px;
+    }
+    footer > .containerBgFooter > hr{
+        width: 80vw;
+    }
+    footer > .containerBgFooter > .bgParceiros{
+        width: 140px;
+        height: 50px;
+    }
+    footer > .containerBgFooter > .bgParceiros > h2{
+        font-size: 22px;
+    }
+    footer > .containerBgFooter > .logoBaixo{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
+        margin: 0;
+    }
+}
+@media (min-width: 279px) and (max-width: 319px){
+    #quebraCabecaEsquerdo-header{
+        width: 135px;
+        height: 250px;
+    }
+    body > header > .containerNav{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    body > header > .containerNav > nav{
+        width: 95vw;
+        height: 40px;
+        border-radius: 8px;
+        justify-content: space-around;
+        padding-right: 0;
+        padding-left: 2px;
+    }
+    body > header > .containerNav > nav > a > img{
+        width: 24px;
+        height: 24px;
+        margin: 0 4px 0 0;
+    }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    #quebraCabecaDireito-header{
+        display: none;
+    }
+    main > a > .containerBM > .botaoMaterial{
+        width: 220px;
+        height: 52px;
+    }
+    main > a > .containerBM > .botaoMaterial > h2{
+        font-size: 20px;
+    }
+    main > a > .containerBM > .bgIcone{
+        width: 24px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    main > a > .containerBM > .bgIcone > img{
+        width: 18px;
+        height: 18px;
+    }
+    footer > img{
+        width: 40px;
+        height: 56px;
+    }
+    footer > .containerBgFooter{
+        width: 100vw;
+        height: 1200px;
+        border-radius: 0 ;
+    }
+    footer > .containerBgFooter > h3{
+        min-width: 80vw;
+        font-size: 15px;
+    }
+    footer > .containerBgFooter > hr{
+        width: 80vw;
+    }
+    footer > .containerBgFooter > .bgParceiros{
+        width: 140px;
+        height: 50px;
+    }
+    footer > .containerBgFooter > .bgParceiros > h2{
+        font-size: 22px;
+    }
+    footer > .containerBgFooter > .logoBaixo{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    footer > .containerBgFooter > .logoBaixo > a > #logoSucesso{
+        margin: 0;
+    }
+}
