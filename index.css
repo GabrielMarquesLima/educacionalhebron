@@ -10,7 +10,7 @@ main > .banner > img{
 main > .banner > a > .bgTexto{
     width: 340px;
     height: 80px;
-    background-color: #dd9819;
+    background-color: #d19017;
     border-radius: 100px 5px 100px 5px;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ main .banner > a > .bgTexto:hover{
 main > .banner > a > .bgTexto > h2{
     color: #ffffff;
     font-family: Montserrat;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 500;
 }
 main > .containerMVV{
