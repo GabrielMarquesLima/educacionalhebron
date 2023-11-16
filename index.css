@@ -1,6 +1,212 @@
-main > .teste{
-    width: 280px;
-    height: 60px;
+main{
+    margin-top: -400px;
+}
+main > .banner > img{
+    z-index: 0;
+    position: relative;
+}
+main > .banner > a > .bgTexto{
+    width: 340px;
+    height: 70px;
     background-color: #EF9E03;
-    border-radius: 100px 0 100px 0;
+    border-radius: 100px 5px 100px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px 0 0 50px;
+    z-index: 1;
+    position: relative;
+    transition: 0.5s;
+}
+main .banner > a > .bgTexto:hover{
+    transform: scale(1.04);
+    background-color: #ffa600;
+}
+main > .banner > a > .bgTexto > h2{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+}
+main > .containerMVV{
+    margin-top: 140px;
+}
+main > .containerMVV > img{
+    margin: 0 0 -39px -9px;
+}
+main > .containerMVV > .bgMVV{
+    width: 1280px;
+    height: 525px;
+    border-radius: 20px;
+    background-color: #4C4A59;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main > .containerMVV > .bgMVV > .card{
+    width: 362px;
+    height: 473px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .containerMVV > .bgMVV > .card > img{
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 20px 0;
+}
+main > .containerMVV > .bgMVV > .card > h2{
+    color: #4C4A59;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+main > .containerMVV > .bgMVV > .card > h3{
+    color: #4C4A59;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    width: 280px;
+}
+main > img{
+    width: 100px;
+    height: 141px;
+    margin-top: -18px;
+    position: relative;
+}
+main > .escolaridades{
+    width: 1280px;
+    height: 459px;
+    border-radius: 20px;
+    background-color: #4C4A59;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -30px;
+}
+main > .escolaridades > .containerCard{
+    margin-top: -38px;
+}
+@keyframes balancar {
+    5% {
+        transform: rotate(0deg);
+    }
+    45% {
+        transform: rotate(-15deg);
+    }
+    4% {
+        transform: rotate(0deg);
+    }
+}
+main > .escolaridades > .containerCard > img{
+    margin: 0 0 -38px -20px;
+}
+main > .escolaridades > .containerCard > img:hover,
+main > .escolaridades > .containerCard > img:active{
+    animation: balancar 2s infinite;
+}
+main > .escolaridades > .containerCard > .card{
+    width: 293px;
+    height: 347px;
+    border-radius: 10px;
+    background-color: #1B7F7A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .escolaridades > .containerCard > .card > .containerIT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 14px 0 20px 0;
+}
+main > .escolaridades > .containerCard > .card > .containerIT > .bg{
+    width: 50px;
+    height: 60px;
+    border-radius: 5px 5px 0 0;
+    background-color: #F2CDAC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > .escolaridades > .containerCard > .card > .containerIT > .bg > img{
+    width: 40px;
+    height: 40px;
+}
+main > .escolaridades > .containerCard > .card > .containerIT > .bgTitulo{
+    width: 96px;
+    height: 31px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > .escolaridades > .containerCard > .card > .containerIT > .bgTitulo > h2{
+    color: #4C4A59;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 21px;
+    font-weight: 700;
+}
+main > .escolaridades > .containerCard > .card > h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: 600;
+    width: 261px;
+}
+#skate-brinquedo{
+    width: 237px;
+    height: 155px;
+    margin: 0 0 -80px -110px;
+}
+main > .containerExplicacao > .bg{
+    width: 930px;
+    height: 940px;
+    background-color: #4C4A59;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+main > .containerExplicacao > .bg > img{
+    width: 777px;
+    height: 675px;
+}
+main > .containerExplicacao > .bg > .bgTexto{
+    width: 840px;
+    height: 160px;
+    border-radius: 15px;
+    background-color: #1B7F7A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > .containerExplicacao > .bg > .bgTexto > h2{
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Dosis;
+    font-size: 25px;
+    font-weight: 700;
+    width: 750px;
+}
+main > .containerExplicacao > .containerBolaFutebol-brinquedo{
+    display: flex;
+    justify-content: flex-end;
+    margin: -70px -45px 0 0;
+}
+#bolaFutebol-brinquedo{
+    width: 100px;
+    height: 140px;
+}
+main > .containerExplicacao > #skate-brinquedo:hover , main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:hover,
+main > .containerExplicacao > #skate-brinquedo:active, main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:active{
+    animation: balancar 2.3s infinite;
 }
