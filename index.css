@@ -7,8 +7,8 @@ main > .banner > img{
 }
 main > .banner > a > .bgTexto{
     width: 340px;
-    height: 70px;
-    background-color: #ffa600;
+    height: 80px;
+    background-color: #dd9819;
     border-radius: 100px 5px 100px 5px;
     display: flex;
     align-items: center;
