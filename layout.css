@@ -3,6 +3,17 @@ a{
     color: inherit;
     cursor: pointer;
 }
+@keyframes balancar {
+    5% {
+        transform: rotate(0deg);
+    }
+    45% {
+        transform: rotate(-15deg);
+    }
+    4% {
+        transform: rotate(0deg);
+    }
+}
 body{
     background-color: #d9d9d9;
 }
