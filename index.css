@@ -82,6 +82,17 @@ main > img{
     margin-top: -18px;
     position: relative;
 }
+/* Animações dos botões:*/
+main > img:hover,
+main > img:active,
+main > .containerMVV > img:hover,
+main > .containerMVV > img:active,
+main > .escolaridades > .containerCard > img:hover,
+main > .escolaridades > .containerCard > img:active,
+main > .containerExplicacao > #skate-brinquedo:hover , main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:hover,
+main > .containerExplicacao > #skate-brinquedo:active, main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:active{
+    animation: balancar 2.5s infinite;
+}
 main > .escolaridades{
     width: 1280px;
     height: 459px;
@@ -100,7 +111,7 @@ main > .escolaridades > .containerCard{
         transform: rotate(0deg);
     }
     45% {
-        transform: rotate(-15deg);
+        transform: rotate(-10deg);
     }
     4% {
         transform: rotate(0deg);
@@ -110,10 +121,6 @@ main > .escolaridades > .containerCard > img{
     width: 60px;
     height: 60px;
     margin: 0 0 -38px -20px;
-}
-main > .escolaridades > .containerCard > img:hover,
-main > .escolaridades > .containerCard > img:active{
-    animation: balancar 2s infinite;
 }
 main > .escolaridades > .containerCard > .card{
     width: 293px;
@@ -212,7 +219,517 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
     width: 100px;
     height: 140px;
 }
-main > .containerExplicacao > #skate-brinquedo:hover , main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:hover,
-main > .containerExplicacao > #skate-brinquedo:active, main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:active{
-    animation: balancar 2.3s infinite;
+@media (min-width: 1200px) and (max-width: 1399px){
+    main  .containerMVV > .bgMVV{
+        width: 1100px;
+        height: 457px;
+    }
+    main > .containerMVV > .bgMVV > .card{
+        width: 320px;
+        height: 420px;
+    }
+    main > img{
+        width: 80px;
+        height: 121px;
+    }
+    main > .escolaridades{
+        width: 1100px;
+        height: 400px;
+        margin-top: -18px;
+    }
+    main > .escolaridades > .containerCard > img{
+        width: 50px;
+        height: 50px;
+        margin: 0 0 -40px -20px;
+    }
+    main > .containerExplicacao > .bg{
+        width: 900px;
+        height: 840px;
+    }
+    main > .containerExplicacao > .bg > img{
+        width: 700px;
+        height: 608px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .banner  > img{
+        width: 562px;
+        height: 346px;
+    }
+    main > .banner > a > .bgTexto{
+        width: 300px;
+        height: 70px;
+        margin: -8px 0 0 20px;
+    }
+    main > .banner > a > .bgTexto > h2{
+        font-size: 26px;
+    }
+    main > .containerMVV > img{
+        position: relative;
+        margin: 0 0 -35px -18px;
+    }
+    main > .containerMVV{
+        margin-top: 65px;
+    }
+    main  .containerMVV > .bgMVV{
+        width: 920px;
+        height: 390px;
+    }
+    main > .containerMVV > .bgMVV > .card{
+        width: 280px;
+        height: 360px;
+    }
+    main > .containerMVV > .bgMVV > .card > img{
+        width: 26px;
+        height: 26px;
+    }
+    main > .containerMVV > .bgMVV > .card > h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    main > .containerMVV > .bgMVV > .card > h3{
+        font-size: 22px;
+        width: 240px;
+    }
+    main > img{
+        width: 80px;
+        height: 121px;
+    }
+    main > .escolaridades{
+        width: 970px;
+        height: 380px;
+        margin-top: -18px;
+    }
+    #skate-brinquedo{
+        width: 181px;
+        height: 106px;
+        margin: 0 0 -50px -90px;
+    }
+    main > .escolaridades > .containerCard{
+        margin-top: -18px;
+    }
+    main > .escolaridades > .containerCard > img{
+        width: 50px;
+        height: 50px;
+        margin: 0 0 -40px -20px;
+    }
+    main > .containerExplicacao > .bg{
+        width: 800px;
+        height: 760px;
+    }
+    main > .containerExplicacao > .bg > img{
+        width: 617px;
+        height: 536px;
+    }
+    main > .containerExplicacao > .bg > .bgTexto{
+        width: 750px;
+        height: 120px;
+    }
+    main > .containerExplicacao > .bg > .bgTexto > h2{
+        font-size: 22px;
+    }
+    #bolaFutebol-brinquedo{
+        width: 90px;
+        height: 126px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .banner{
+        margin-top: 170px;
+    }
+    main > .banner  > img{
+        width: 500px;
+        height: 308px;
+    }
+    main > .banner > a > .bgTexto{
+        width: 300px;
+        height: 65px;
+        margin: -8px 0 0 20px;
+    }
+    main > .banner > a > .bgTexto > h2{
+        font-size: 25px;
+    }
+    main > .containerMVV > img{
+        position: relative;
+        margin: 0 0 -35px -18px;
+    }
+    main > .containerMVV{
+        margin-top: 20px;
+    }
+    main  .containerMVV > .bgMVV{
+        width: 90vw;
+        height:auto;
+        flex-wrap: wrap;
+    }
+    main > .containerMVV > .bgMVV > .card{
+        width: 280px;
+        height: 360px;
+        margin: 20px;
+    }
+    main > .containerMVV > .bgMVV > .card > img{
+        width: 26px;
+        height: 26px;
+    }
+    main > .containerMVV > .bgMVV > .card > h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    main > .containerMVV > .bgMVV > .card > h3{
+        font-size: 22px;
+        width: 240px;
+    }
+    main > img{
+        width: 80px;
+        height: 121px;
+    }
+    main > .escolaridades{
+        width: 90vw;
+        height: auto;
+        margin-top: -18px;
+        flex-wrap: wrap;
+    }
+    #skate-brinquedo{
+        width: 181px;
+        height: 106px;
+        margin: 0 0 -50px -90px;
+    }
+    main > .escolaridades > .containerCard{
+        margin: 20px;
+    }
+    main > .escolaridades > .containerCard > img{
+        width: 50px;
+        height: 50px;
+        margin: 0 0 -40px -20px;
+    }
+    main > .containerExplicacao > .bg{
+        width: 80vw;
+        height: 760px;
+    }
+    main > .containerExplicacao > .bg > img{
+        width: 80%;
+        height: 536px;
+        object-fit: cover;
+    }
+    main > .containerExplicacao > .bg > .bgTexto{
+        width: 95%;
+        height: 120px;
+    }
+    main > .containerExplicacao > .bg > .bgTexto > h2{
+        font-size: 22px;
+        width: 95%;
+    }
+    #bolaFutebol-brinquedo{
+        width: 90px;
+        height: 126px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > .banner{
+        margin-top: 280px;
+    }
+    main > .banner  > img{
+        width: 405px;
+        height: 250px;
+    }
+    main > .banner > a > .bgTexto{
+        width: 300px;
+        height: 65px;
+        margin: -8px 0 0 20px;
+    }
+    main > .banner > a > .bgTexto > h2{
+        font-size: 25px;
+    }
+    main > .containerMVV > img{
+        position: relative;
+        margin: 0 0 -35px -18px;
+    }
+    main > .containerMVV{
+        margin-top: 20px;
+    }
+    main  .containerMVV > .bgMVV{
+        width: 90vw;
+        height:auto;
+        flex-wrap: wrap;
+    }
+    main > .containerMVV > .bgMVV > .card{
+        width: 280px;
+        height: 360px;
+        margin: 20px;
+    }
+    main > .containerMVV > .bgMVV > .card > img{
+        width: 26px;
+        height: 26px;
+    }
+    main > .containerMVV > .bgMVV > .card > h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    main > .containerMVV > .bgMVV > .card > h3{
+        font-size: 22px;
+        width: 240px;
+    }
+    main > img{
+        width: 80px;
+        height: 121px;
+    }
+    main > .escolaridades{
+        width: 90vw;
+        height: auto;
+        margin-top: -18px;
+        flex-wrap: wrap;
+    }
+    #skate-brinquedo{
+        width: 181px;
+        height: 106px;
+        margin: 0 0 -50px -90px;
+    }
+    main > .escolaridades > .containerCard{
+        margin: 20px;
+    }
+    main > .escolaridades > .containerCard > img{
+        width: 50px;
+        height: 50px;
+        margin: 0 0 -40px -20px;
+    }
+    main > .containerExplicacao > .bg{
+        width: 80vw;
+        height: 840px;
+    }
+    main > .containerExplicacao > .bg > img{
+        width: 80%;
+        height: 600px;
+        object-fit: cover;
+    }
+    main > .containerExplicacao > .bg > .bgTexto{
+        width: 95%;
+        height: 180px;
+    }
+    main > .containerExplicacao > .bg > .bgTexto > h2{
+        font-size: 22px;
+        width: 95%;
+    }
+    main > .containerExplicacao > .containerBolaFutebol-brinquedo{
+        margin: -60px -55px 0 0;
+    }
+    #bolaFutebol-brinquedo{
+        width: 90px;
+        height: 126px;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px){
+    main > .banner{
+        margin-top: 280px;
+    }
+    main > .banner  > img{
+        width: 295px;
+        height: 182px;
+    }
+    main > .banner > a > .bgTexto{
+        width: 270px;
+        height: 55px;
+        margin: -8px 0 0 20px;
+    }
+    main > .banner > a > .bgTexto > h2{
+        font-size: 22px;
+    }
+    main > .containerMVV > img{
+        position: relative;
+        margin: 0 0 -35px -18px;
+    }
+    main > .containerMVV{
+        margin-top: 20px;
+    }
+    main  .containerMVV > .bgMVV{
+        width: 90vw;
+        height:auto;
+        flex-wrap: wrap;
+    }
+    main > .containerMVV > .bgMVV > .card{
+        width: 280px;
+        height: 360px;
+        margin: 20px;
+    }
+    main > .containerMVV > .bgMVV > .card > img{
+        width: 26px;
+        height: 26px;
+    }
+    main > .containerMVV > .bgMVV > .card > h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    main > .containerMVV > .bgMVV > .card > h3{
+        font-size: 22px;
+        width: 240px;
+    }
+    main > img{
+        width: 80px;
+        height: 121px;
+    }
+    main > .escolaridades{
+        width: 100vw;
+        height: auto;
+        margin-top: -18px;
+        flex-wrap: wrap;
+    }
+    #skate-brinquedo{
+        width: 144px;
+        height: 85px;
+        margin: 0 0 -30px -15px;
+        transform: rotate(5deg);
+    }
+    main > .escolaridades > .containerCard{
+        margin: 20px;
+    }
+    main > .escolaridades > .containerCard > .card{
+        width: 270px;
+    }
+    main > .escolaridades > .containerCard > .card > .containerIT > .bgTitulo > h2{
+        width: 95%;
+    }
+    main > .escolaridades > .containerCard > img{
+        width: 50px;
+        height: 50px;
+        margin: 0 0 -40px -20px;
+    }
+    #skate-brinquedo{
+        width: 144px;
+        height: 85px;
+        margin: 0 0 -30px -15px;
+        transform: rotate(5deg);
+    }
+    main > .containerExplicacao > .bg{
+        width: 100vw;
+        height: 880px;
+    }
+    main > .containerExplicacao > .bg > img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+    main > .containerExplicacao > .bg > .bgTexto{
+        width: 95%;
+        height: 240px;
+    }
+    main > .containerExplicacao > .bg > .bgTexto > h2{
+        font-size: 22px;
+        width: 95%;
+    }
+    main > .containerExplicacao > .containerBolaFutebol-brinquedo{
+        margin: -50px -5px 0 0;
+    }
+    #bolaFutebol-brinquedo{
+        width: 51px;
+        height: 72px;
+    }
+}
+@media (min-width: 280px) and (max-width: 319px){
+    main > .banner{
+        margin-top: 300px;
+    }
+    main > .banner  > img{
+        width: 263px;
+        height: 162px;
+    }
+    main > .banner > a > .bgTexto{
+        width: 230px;
+        height: 45px;
+        margin: -8px 0 0 6px;
+    }
+    main > .banner > a > .bgTexto > h2{
+        font-size: 20px;
+    }
+    main > .containerMVV > img{
+        width: 30px;
+        height: 43px;
+        position: relative;
+        margin: 0 0 -30px -6px;
+    }
+    main > .containerMVV{
+        margin-top: 20px;
+    }
+    main  .containerMVV > .bgMVV{
+        width: 95vw;
+        height:auto;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    main > .containerMVV > .bgMVV > .card{
+        width: 95%;
+        height: 360px;
+    }
+    main > .containerMVV > .bgMVV > .card > img{
+        width: 26px;
+        height: 26px;
+    }
+    main > .containerMVV > .bgMVV > .card > h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    main > .containerMVV > .bgMVV > .card > h3{
+        font-size: 22px;
+        width: 95%;
+    }
+    main > img{
+        width: 80px;
+        height: 121px;
+    }
+    main > .escolaridades{
+        width: 100vw;
+        height: auto;
+        margin-top: -18px;
+        flex-wrap: wrap;
+        border-radius: 0;
+    }
+    main > .escolaridades > .containerCard{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main > .escolaridades > .containerCard > .card{
+        width: 95%;
+    }
+    main > .escolaridades > .containerCard > .card > h3{
+        width: 95%;
+    }
+    main > .escolaridades > .containerCard > .card > .containerIT > .bgTitulo > h2{
+        width: 95%;
+    }
+    main > .escolaridades > .containerCard > img{
+        width: 50px;
+        height: 50px;
+        margin: 0 0 5px 0;
+    }
+    #skate-brinquedo{
+        width: 144px;
+        height: 85px;
+        margin: 0 0 -30px -15px;
+        transform: rotate(5deg);
+    }
+    main > .containerExplicacao > .bg{
+        width: 100vw;
+        height: 880px;
+    }
+    main > .containerExplicacao > .bg > img{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }
+    main > .containerExplicacao > .bg > .bgTexto{
+        width: 95%;
+        height: 300px;
+    }
+    main > .containerExplicacao > .bg > .bgTexto > h2{
+        font-size: 22px;
+        width: 95%;
+    }
+    main > .containerExplicacao > .containerBolaFutebol-brinquedo{
+        margin: -50px -2px 0 0;
+    }
+    #bolaFutebol-brinquedo{
+        width: 51px;
+        height: 72px;
+    }
 }
