@@ -36,7 +36,7 @@ main > .containerMVV{
 main > .containerMVV > img{
     width: 61px;
     height: 85px;
-    margin: 0 0 -45px -20px;
+    margin: 0 0 -60px -20px;
 }
 main > .containerMVV > .bgMVV{
     width: 1280px;
@@ -220,6 +220,11 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
     height: 140px;
 }
 @media (min-width: 1200px) and (max-width: 1399px){
+    main > .containerMVV > img{
+        width: 45px;
+        height: 63px;
+        margin: 0 0 -45px -15px;
+    }
     main  .containerMVV > .bgMVV{
         width: 1100px;
         height: 457px;
@@ -263,6 +268,11 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
     }
     main > .banner > a > .bgTexto > h2{
         font-size: 26px;
+    }
+    main > .containerMVV > img{
+        width: 45px;
+        height: 63px;
+        margin: 0 0 -45px -15px;
     }
     main > .containerMVV > img{
         position: relative;
@@ -348,6 +358,11 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
     }
     main > .banner > a > .bgTexto > h2{
         font-size: 25px;
+    }
+    main > .containerMVV > img{
+        width: 40px;
+        height: 57px;
+        margin: 0 0 -70px -15px;
     }
     main > .containerMVV > img{
         position: relative;
@@ -440,6 +455,11 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
     }
     main > .banner > a > .bgTexto > h2{
         font-size: 25px;
+    }
+    main > .containerMVV > img{
+        width: 40px;
+        height: 57px;
+        margin: 0 0 -70px -15px;
     }
     main > .containerMVV > img{
         position: relative;
@@ -536,8 +556,9 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         font-size: 22px;
     }
     main > .containerMVV > img{
-        position: relative;
-        margin: 0 0 -35px -2px;
+        width: 40px;
+        height: 57px;
+        margin: 0 0 -4  0px -15px;
     }
     main > .containerMVV{
         margin-top: 20px;
