@@ -38,8 +38,8 @@ header{
     justify-content: center;
 }
 body > header > .containerNav > nav{
-    width: 370px;
-    height: 49px;
+    width: 480px;
+    height: 65px;
     background-color: #4C4A59;
     border-radius: 10px;
     
@@ -51,8 +51,8 @@ body > header > .containerNav > nav{
     padding-right: 13px;
 }
 body > header > .containerNav > nav > a > img{
-    width: 30px;
-    height: 30px;
+    width: 43px;
+    height: 43px;
     margin: 0px 24px 0px 11px;
     transition: 0.3s;
 }
@@ -62,7 +62,7 @@ body > header > .containerNav > nav > a > img:hover{
 body > header > .containerNav > nav > a > h2{
     color: rgba(255, 255, 255, 0.664);
     font-family: Dosis;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 600;
     transition: 0.01s;
 }
@@ -240,6 +240,9 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+    header > .containerNav > nav > a > h2{
+        font-size: 24px;
+    }
     main > a > .containerBM > .botaoMaterial{
         width: 394px;
         height: 67px;
@@ -263,6 +266,9 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     body > header > .containerNav > nav{
         width: 408px;
     }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 26px;
+    }
     body > header > .containerNav > nav > a > img{
         margin: 0 14px 0 8px;
     }
@@ -283,7 +289,21 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         width: 203px;
         height: 369px;
     }
+    body > header > .containerNav{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    body > header > .containerNav > nav{
+        width: 400px;
+        height: 65px;
+    }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 26px;
+    }
     body > header > .containerNav > nav > a > img{
+        width: 38px;
+        height: 38px;
         margin: 0 12px 0 6px;
     }
     #quebraCabecaDireito-header{
@@ -323,9 +343,14 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         transform: translate(-50%, 0%);
     }
     body > header > .containerNav > nav{
-        width: 340px;
+        width: 360px;
+    }
+    body > header > .containerNav > nav > a > h2{
+        font-size: 24px;
     }
     body > header > .containerNav > nav > a > img{
+        width: 36px;
+        height: 36px;
         margin: 0 10px 0 6px;
     }
     #quebraCabecaDireito-header{
@@ -386,15 +411,16 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         transform: translate(-50%, 0%);
     }
     body > header > .containerNav > nav{
-        width: 290px;
+        width: 300px;
+        height: 55px;
     }
     body > header > .containerNav > nav > a > img{
-        width: 28px;
-        height: 28px;
+        width: 34px;
+        height: 34px;
         margin: 0 8px 0 6px;
     }
     body > header > .containerNav > nav > a > h2{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
     }
     #quebraCabecaDireito-header{
@@ -468,12 +494,12 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         padding-left: 4px;
     }
     body > header > .containerNav > nav > a > img{
-        width: 28px;
-        height: 28px;
+        width: 30px;
+        height: 30px;
         margin: 0 8px 0 4px;
     }
     body > header > .containerNav > nav > a > h2{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
     }
     #quebraCabecaDireito-header{
@@ -539,13 +565,13 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         transform: translate(-50%, 0%);
     }
     body > header > .containerNav > nav{
-        width: 90vw;
-        height: 40px;
-        padding: 0;
+        width: 92vw;
+        height: 45px;
+        padding: 0 5px 0 0;
     }
     body > header > .containerNav > nav > a > img{
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
         margin: 0 8px 0 6px;
     }
     body > header > .containerNav > nav > a > h2{

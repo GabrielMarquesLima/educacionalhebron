@@ -34,9 +34,9 @@ main > .containerMVV{
     margin-top: 140px;
 }
 main > .containerMVV > img{
-    width: 40px;
-    height: 56.387px;
-    margin: 0 0 -39px -9px;
+    width: 61px;
+    height: 85px;
+    margin: 0 0 -45px -20px;
 }
 main > .containerMVV > .bgMVV{
     width: 1280px;
@@ -57,8 +57,8 @@ main > .containerMVV > .bgMVV > .card{
     align-items: center;
 }
 main .containerMVV > .bgMVV > .card > img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 15px 0 20px 0;
 }
 main > .containerMVV > .bgMVV > .card > h2{
