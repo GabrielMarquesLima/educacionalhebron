@@ -360,11 +360,13 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         width: 90vw;
         height:auto;
         flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 20px;
     }
     main > .containerMVV > .bgMVV > .card{
         width: 280px;
         height: 360px;
-        margin: 20px;
     }
     main > .containerMVV > .bgMVV > .card > img{
         width: 26px;
@@ -447,14 +449,15 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         margin-top: 20px;
     }
     main  .containerMVV > .bgMVV{
-        width: 90vw;
+        width: 320px;
         height:auto;
         flex-wrap: wrap;
+        padding: 20px 0 20px 0;
+        gap: 20px;
     }
     main > .containerMVV > .bgMVV > .card{
         width: 280px;
         height: 360px;
-        margin: 20px;
     }
     main > .containerMVV > .bgMVV > .card > img{
         width: 26px;
@@ -473,7 +476,7 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         height: 121px;
     }
     main > .escolaridades{
-        width: 90vw;
+        width: 320px;
         height: auto;
         margin-top: -18px;
         flex-wrap: wrap;
@@ -534,20 +537,22 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
     }
     main > .containerMVV > img{
         position: relative;
-        margin: 0 0 -35px -18px;
+        margin: 0 0 -35px -2px;
     }
     main > .containerMVV{
         margin-top: 20px;
     }
     main  .containerMVV > .bgMVV{
-        width: 90vw;
+        width: 310px;
         height:auto;
         flex-wrap: wrap;
+        row-gap: 20px;
+        padding: 20px 0 20px 0;
     }
     main > .containerMVV > .bgMVV > .card{
         width: 280px;
         height: 360px;
-        margin: 20px;
+        margin: 0;
     }
     main > .containerMVV > .bgMVV > .card > img{
         width: 26px;
@@ -566,7 +571,7 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         height: 121px;
     }
     main > .escolaridades{
-        width: 100vw;
+        width: 310px;
         height: auto;
         margin-top: -18px;
         flex-wrap: wrap;

@@ -398,9 +398,7 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         text-align: center;
     }
     #quebraCabecaDireito-header{
-            width: 150px;
-            height: 204px;
-            margin: 24px 8px 0 0;
+            display: none;
     }
     main > a > .containerBM > .botaoMaterial{
         width: 300px;
