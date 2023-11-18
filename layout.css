@@ -28,10 +28,6 @@ header{
 .containerQuebraCabecaEsquerdo-header{
     flex: 1;
 }
-#quebraCabecaEsquerdo-header{
-    width: 343px;
-    height: 633px;
-}
 .containerNav{
     flex: 1;
     display: flex;
@@ -259,10 +255,6 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
-    #quebraCabecaEsquerdo-header{   
-        width: 283px;
-        height: 573px;
-    }
     body > header > .containerNav > nav{
         width: 408px;
     }
@@ -285,10 +277,6 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
-    #quebraCabecaEsquerdo-header{
-        width: 203px;
-        height: 369px;
-    }
     body > header > .containerNav{
         position: absolute;
         left: 50%;
@@ -333,10 +321,6 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
-    #quebraCabecaEsquerdo-header{
-        width: 135px;
-        height: 250px;
-    }
     body > header > .containerNav{
         position: absolute;
         left: 50%;
@@ -401,10 +385,6 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 400px) and (max-width: 575px){
-    #quebraCabecaEsquerdo-header{
-        width: 135px;
-        height: 250px;
-    }
     body > header > .containerNav{
         position: absolute;
         left: 50%;
@@ -476,10 +456,6 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 320px) and (max-width: 399px){
-    #quebraCabecaEsquerdo-header{
-        width: 135px;
-        height: 250px;
-    }
     body > header > .containerNav{
         position: absolute;
         left: 50%;
@@ -555,10 +531,6 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 279px) and (max-width: 319px){
-    #quebraCabecaEsquerdo-header{
-        width: 135px;
-        height: 250px;
-    }
     body > header > .containerNav{
         position: absolute;
         left: 50%;
@@ -570,8 +542,8 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
         padding: 0 5px 0 0;
     }
     body > header > .containerNav > nav > a > img{
-        width: 28px;
-        height: 28px;
+        width: 30px;
+        height: 30px;
         margin: 0 8px 0 6px;
     }
     body > header > .containerNav > nav > a > h2{

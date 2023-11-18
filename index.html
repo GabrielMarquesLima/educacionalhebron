@@ -6,13 +6,21 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./layout.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Inter&family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
     <title>Instituto Educacional Hebron</title>
 </head>
 <body>
     <header>
         <div class="containerQuebraCabecaEsquerdo-header">
-            <img src="./img/quebraCabecaEsquerdo-header.webp" id="quebraCabecaEsquerdo-header" alt="Imagem de Quebra Cabeça ao fundo">
+            <picture>
+                <source media="(min-width: 992px) and (max-width: 1199px)" srcset="./img/quebraCabecaEsquerdo-header2.webp">
+                <source media="(min-width: 768px) and (max-width: 991px)" srcset="./img/quebraCabecaEsquerdo-header3.webp">
+                <source media="(min-width: 576px) and (max-width: 767px)" srcset="./img/quebraCabecaEsquerdo-header4.webp">
+                <source media="(max-width: 575px)" srcset="./img/quebraCabecaEsquerdo-header5.webp">
+                <img src="./img/quebraCabecaEsquerdo-header.webp" id="quebraCabecaEsquerdo-header" alt="Imagem de Quebra Cabeça ao fundo">
+            </picture>
         </div>
         <div class="containerNav">
             <nav>
@@ -32,7 +40,14 @@
     </header>
     <main>
         <div class="banner">
-            <img src="./img/banner-home.webp" alt="Banner Marketing">
+            <picture>
+                <source media="(min-width: 992px) and (max-width: 1199px)" srcset="./img/banner-home-2.webp">
+                <source media="(min-width: 768px) and (max-width: 991px)" srcset="./img/banner-home-3.webp">
+                <source media="(min-width: 576px) and (max-width: 767px)" srcset="./img/banner-home-4.webp">
+                <source media="(min-width: 320px) and (max-width: 575px)" srcset="./img/banner-home-5.webp">
+                <source media="(max-width: 319px)" srcset="./img/banner-home-6.webp">
+                <img src="./img/banner-home.webp" alt="Banner Marketing">
+            </picture>
             <a href="./contato.html">
                 <div class="bgTexto">
                     <h2>Agende uma visita!</h2>
@@ -40,26 +55,47 @@
             </a>
         </div>
         <div class="containerMVV">
-            <img src="./img/bolaBrinquedo.webp" alt="Imagem de uma bola de brinquedo">
+            <picture>
+                <source media="(max-width: 319px)" srcset="./img/bolaBrinquedo-4.webp">
+                <source media="(min-width: 320px) and (max-width: 991px)" srcset="./img/bolaBrinquedo-3.webp">
+                <source media="(min-width: 992px) and (max-width: 1399px)" srcset="./img/bolaBrinquedo-2.webp">
+                <source media="(min-width: 1400px)" srcset="./img/bolaBrinquedo.webp">
+                <img src="./img/bolaBrinquedo.webp" alt="Imagem de bola de brinquedo">
+            </picture>
             <div class="bgMVV">
                 <div class="card">
-                    <img src="./img/missao-icone.webp" alt="Icone representando a missão da instituição">
+                    <picture>
+                        <source media="(min-width: 575px) and (max-width: 1199px)" srcset="./img/missao-icone-2.webp">
+                        <source media="(max-width: 574px)" srcset="./img/missao-icone-3.webp">
+                        <img src="./img/missao-icone.webp" alt="Icone representando a missão da instituição">
+                    </picture>
                     <h2>Missão</h2>
                     <h3>Preparar cidadãos conscientes, críticos, solidários e éticos para enfrentar os desafios da vida com respeito pela sociedade e pela natureza.</h3>
                 </div>
                 <div class="card">
-                    <img src="./img/valores-icone.webp" alt="Icone representando os valores da instituição">
+                    <picture>
+                        <source media="(min-width: 575px) and (max-width: 1199px)" srcset="./img/valores-icone-2.webp">
+                        <source media="(max-width: 574px)" srcset="./img/valores-icone-3.webp">
+                        <img src="./img/valores-icone.webp" alt="Icone representando os valores da instituição">
+                    </picture>
                     <h2>Valores</h2>
                     <h3>Ensinar com amor de forma a valorizar os princípios da cooperação, perdão, atitudes positivas e respeito a si e ao próximo, segundo os mandamentos de cristo. </h3>
                 </div>
                 <div class="card">
-                    <img src="./img/visao-icone.webp" alt="Icone representando a visão da instituição">
+                    <picture>
+                        <source media="(min-width: 575px) and (max-width: 1199px)" srcset="./img/visao-icone-2.webp">
+                        <source media="(max-width: 574px)" srcset="./img/visao-icone-3.webp">
+                        <img src="./img/visao-icone.webp" alt="Icone representando a visão da instituição">
+                    </picture>
                     <h2>Visão</h2>
                     <h3>Ser referência no atendimento em Berçário, Educação infantil e ser reconhecida como a melhor instituição de ensino, através da excelência dos serviços prestados.</h3>
                 </div>
             </div>
         </div>
-        <img src="./img/dinossauro-brinquedo.webp" alt="Brinquedo de dinossauro">
+        <picture>
+            <source media="(max-width: 1199px)" srcset="./img/dinossauro-brinquedo-2.webp">
+            <img src="./img/dinossauro-brinquedo.webp" alt="Brinquedo de dinossauro">
+        </picture>
         <div class="escolaridades">
             <div class="containerCard">
                 <img src="./img/raio-icone.webp" alt="Icone de raio">
@@ -105,7 +141,11 @@
             </div>
         </div>
         <div class="containerExplicacao">
-            <img src="./img/skate-brinquedo.webp" id="skate-brinquedo" alt="Skate de brinquedo">
+            <picture>
+                <source media="(min-width: 576px) and (max-width: 1199px)" srcset="./img/skate-brinquedo-2.webp">
+                <source media="(max-width: 575px)" srcset="./img/skate-brinquedo-3.webp">
+                <img src="./img/skate-brinquedo.webp" id="skate-brinquedo" alt="Skate de brinquedo">
+            </picture>
             <div class="bg">
                 <img src="./img/bannerMarketing-div.webp" alt="Banner de garotinho pensando a respeito de seu futuro">
                 <div class="bgTexto">
