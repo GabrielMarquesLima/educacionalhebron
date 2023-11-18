@@ -14,7 +14,7 @@
 }
 *{
     max-width: 100vw;
-    font-display: auto;
+    font-display: swap;
 }
 a{
     text-decoration: none;
