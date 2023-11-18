@@ -548,9 +548,8 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         margin-top: 280px;
     }
     main > .banner > picture > img{
-        max-width: 90vw;
-        /* width: 295px; */
-        height: auto;
+        width: 295px;
+        height: 182px;
     }
     main > .banner > a > .bgTexto{
         width: 270px;
@@ -619,9 +618,8 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
     }
     #skate-brinquedo{
         margin: 0 0 -30px -15px;
-        transform: rotate(5deg);
         width: 158px;
-        height: 111px;
+        height: 103px;
     }
     main > .containerExplicacao > .bg{
         width: 100vw;
@@ -729,10 +727,9 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         margin: 0 0 5px 0;
     }
     #skate-brinquedo{
-        margin: 0 0 -30px -15px;
-        transform: rotate(5deg);
+        margin: 0 0 -30px -15px;    
         width: 158px;
-        height: 111px;
+        height: 103px;
     }
     main > .containerExplicacao > .bg{
         width: 100vw;
