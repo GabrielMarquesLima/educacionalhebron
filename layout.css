@@ -26,6 +26,8 @@ header{
     justify-content: space-between;
 }
 .containerQuebraCabecaEsquerdo-header{
+    width: 343px;
+    height: 633px;
     flex: 1;
 }
 .containerNav{
@@ -258,6 +260,10 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     body > header > .containerNav > nav{
         width: 408px;
     }
+    #quebraCabecaEsquerdo-header{
+        width: 283px;
+        height: 523px;
+    }
     body > header > .containerNav > nav > a > h2{
         font-size: 26px;
     }
@@ -277,6 +283,10 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    #quebraCabecaEsquerdo-header{
+        width: 203px;
+        height: 375px;
+    }
     body > header > .containerNav{
         position: absolute;
         left: 50%;
@@ -321,6 +331,10 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
+    #quebraCabecaEsquerdo{
+        width: 135px;
+        height: 250px;
+    }
     body > header > .containerNav{
         position: absolute;
         left: 50%;
