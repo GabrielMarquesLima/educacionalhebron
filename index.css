@@ -548,8 +548,9 @@ main > .containerExplicacao > .containerBolaFutebol-brinquedo{
         margin-top: 280px;
     }
     main > .banner > picture > img{
-        width: 295px;
-        height: 182px;
+        max-width: 90vw;
+        /* width: 295px; */
+        height: auto;
     }
     main > .banner > a > .bgTexto{
         width: 270px;

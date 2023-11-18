@@ -9,7 +9,7 @@
 @font-face{
     font-family: 'Montserrat';
     src: url(./fontes/Montserrat/Montserrat-VariableFont_wght.ttf) format(truetype),
-         url(./fontes/Montserrat/Montserrat-Italic-VariableFont_wght.ttf) format(truetype);
+         url(./fontes/Montserrat/Montserrat-Italic-VariableFont_wght.ttf) format(truetype)
         
 }
 *{
@@ -40,9 +40,11 @@ header{
     justify-content: space-between;
 }
 .containerQuebraCabecaEsquerdo-header{
+    flex: 1;
+}
+#quebraCabecaEsquerdo-header{
     width: 343px;
     height: 633px;
-    flex: 1;
 }
 .containerNav{
     flex: 1;
@@ -348,7 +350,7 @@ footer > .containerBgFooter > .logoBaixo > a > #logoTaekwondo{
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
-    #quebraCabecaEsquerdo{
+    #quebraCabecaEsquerdo-header{
         width: 135px;
         height: 250px;
     }
