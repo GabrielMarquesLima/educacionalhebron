@@ -8,7 +8,13 @@ main > .containerContatos{
     border-radius: 20px;
 }
 #lapisFoguete{
+    width: 377px;
+    height: 171px;
     margin: 44px 0 60px 0;
+}
+#banner-contatos{
+    width: 899px;
+    height: 722px;
 }
 main > .containerContatos > .redes{
     width: 581px;
@@ -16,10 +22,55 @@ main > .containerContatos > .redes{
     background-color: #D9D9D9;
     border-radius: 20px;
     margin-top: -265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
 }
-main > .containerContatos > .redes > .botao{
+main > .containerContatos > .redes > .botao,
+#containerEventos > .botao{
     width: 359px;
     height: 84px;
     background-color: #1B7F7A;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+main > .containerContatos > .redes > .botao > picture,
+#containerEventos > .botao > picture{
+    margin: 0 27px 0 33px;
+    width: 55px;
+    height: 55px;
+}
+main > .containerContatos > .redes > .botao > h2,
+#containerEventos > .botao > h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+}
+#containerEventos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#subContainer{
+    width: 500px;
+    height: 53px;
+    background-color: #19A28D;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#subContainer > h2{
+    color: #F8F6F1;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+}
+main > img{
+    width: 280px;
+    height: 426px;
 }
