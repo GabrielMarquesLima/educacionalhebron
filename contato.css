@@ -36,8 +36,8 @@ main > .containerContatos > .redes > .botao,
     display: flex;
     align-items: center;
 }
-main > .containerContatos > .redes > .botao > picture,
-#containerEventos > .botao > picture{
+main > .containerContatos > .redes > .botao > picture > img,
+#containerEventos > .botao > picture > img{
     margin: 0 27px 0 33px;
     width: 55px;
     height: 55px;
