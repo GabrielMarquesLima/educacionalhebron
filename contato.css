@@ -1,3 +1,9 @@
+#quebraCabecaEsquerdo-header{
+    position: relative;
+}
+#quebraCabecaDireito-header{
+    position: relative;
+}
 main > .containerContatos{
     display: flex;
     flex-direction: column;
@@ -6,6 +12,7 @@ main > .containerContatos{
     height: 1250px;
     background-color: #1B7F7A;
     border-radius: 20px;
+    margin-top: -350px;
 }
 #lapisFoguete{
     width: 377px;
@@ -35,6 +42,10 @@ main > .containerContatos > .redes > a > .botao,
     border-radius: 20px;
     display: flex;
     align-items: center;
+    transition: 0.3s;
+}
+main > .containerContatos > .redes > a > .botao:hover{
+    transform: scale(1.08);
 }
 main > .containerContatos > .redes > a > .botao > picture > img,
 #containerEventos > a > .botao > picture > img{
@@ -53,6 +64,10 @@ main > .containerContatos > .redes > a > .botao > h2,
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.3s;
+}
+#containerEventos:hover{
+    transform: scale(1.05);
 }
 #subContainer{
     width: 470px;
@@ -70,9 +85,23 @@ main > .containerContatos > .redes > a > .botao > h2,
     font-size: 26px;
     font-weight: 500;
 }
-main > img{
-    width: 280px;
-    height: 426px;
+main > picture{
+    display: flex;
+    justify-content: right;
+    margin-top: -140px;
+    width: 1390px;
+}
+main > picture > img{
+    width: 300px;
+    height: 391px;
+    overflow: hidden;
+}
+main > .containerMaps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -150px;
+    position: relative;
 }
 main > .containerMaps > .titulo{
     width: 350px;
@@ -82,6 +111,8 @@ main > .containerMaps > .titulo{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -30px;
+    position: relative;
 }
 main > .containerMaps > .titulo > h2{
     color: #FFF;
@@ -89,3 +120,167 @@ main > .containerMaps > .titulo > h2{
     font-size: 28px;
     font-weight: 500;
 }
+main > .containerMaps > .parteBaixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+main > .containerMaps > .parteBaixo > .maps{
+    width: 1010px;
+    height: 410px;
+    background-color: #1B7F7A;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > .containerMaps > .parteBaixo > .subtitulo{
+    width: 800px;
+    height: 60px;
+    background-color: #1B7F7A;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+main > .containerMaps > .parteBaixo > .subtitulo > h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    main > .containerContatos{
+        width: 1100px;
+    }
+    #lapisFoguete{
+        width: 330px;
+        height: 154px;
+    }
+    #banner-contatos{
+        width: 809px;
+        height: 649px;
+    }
+    main > .containerContatos > .redes{
+        width: 518px;
+    }
+    main > .containerContatos > .redes > a > .botao,
+    #containerEventos > a > .botao{
+        width: 315px;
+    }
+    main > .containerContatos > .redes > a > .botao > h2,
+    #containerContatos > a > .botao > h2{
+        font-size: 32px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .containerContatos{
+        width: 900px;
+    }
+    #lapisFoguete{
+        width: 330px;
+        height: 154px;
+    }
+    #banner-contatos{
+        width: 809px;
+        height: 649px;
+    }
+    main > .containerContatos > .redes{
+        width: 518px;
+    }
+    main > .containerContatos > .redes > a > .botao,
+    #containerEventos > a > .botao{
+        width: 315px;
+    }
+    main > .containerContatos > .redes > a > .botao > h2,
+    #containerEventos > a > .botao > h2{
+        font-size: 32px;
+    }
+    main > picture{
+        width: 100vw;
+    }
+    main > picture > img{
+        width: 270px;
+        height: 351px;
+    }
+    main > .containerMaps{
+        margin-top: -90px;
+    }
+    main > .containerMaps > .parteBaixo > .maps{
+        width: 900px;
+        height: 410px;
+    }
+    main > .containerMaps > .parteBaixo > .maps > iframe{
+        width: 890px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .containerContatos{
+        width: 100vw;
+        border-radius: 0;
+        margin-top: -100px;
+    }
+    #lapisFoguete{
+        width: 267px;
+        height: 124px;
+    }
+    #banner-contatos{
+        width: 728px;
+        height: 584px;
+    }
+    main > .containerContatos > .redes{
+        width: 500px;
+        height: 430px;
+        margin-top: -215px;
+    }
+    main > .containerContatos > .redes > a > .botao,
+    #containerEventos > a > .botao{
+        width: 280px;
+        height: 75px;
+    }
+    main > .containerContatos > .redes > a > .botao > picture > img,
+    #containerEventos > a > .botao > picture > img{
+        width: 45px;
+        height: 45px;
+        margin: 0 20px 0 25px;
+    }
+    main > .containerContatos > .redes > a > .botao > h2,
+    #containerEventos > a > .botao > h2{
+        font-size: 30px;
+    }
+    #subContainer{
+        width: 430px;
+    }
+    #subContainer > h2{
+        font-size: 24px;
+    }
+    main > picture{
+        width: 100vw;
+        margin-top: -90px;
+    }
+    main > picture > img{
+        width: 218px;
+        height: 285px;
+    }
+    main > .containerMaps{
+        margin-top: -60px;
+    }
+    main > .containerMaps > .parteBaixo > .maps{
+        width: 710px;
+        height: 410px;
+    }
+    main > .containerMaps > .parteBaixo > .maps > iframe{
+        width: 700px;
+    }
+}
+/* @media (min-width: 576px) and (max-width: 767px){
+
+} */
+/* @media (min-width: 320px) and (max-width: 575px){
+
+} */
+/* @media (min-width: 280px) and (max-width: 319px){
+
+} */
