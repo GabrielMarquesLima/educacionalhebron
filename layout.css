@@ -239,16 +239,16 @@ footer > .containerBgFooter > .bgParceiros > h2{
 footer > .containerBgFooter > .logoBaixo{
     margin-top: 40px;
 }
-footer > .containerBgFooter > .logoBaixo > #logoBallet{
+#logoBallet{
     width: 200px;
     height: 200px;
 }
-footer > .containerBgFooter > .logoBaixo > #logoSucesso{
+#logoSucesso{
     width: 250px;
     height: 190.833px;
     margin: 0 248px 0 218px;
 }
-footer > .containerBgFooter > .logoBaixo > #logoTaekwondo{
+#logoTaekwondo{
     width: 150px;
     height: 182px;
 }
@@ -272,7 +272,7 @@ footer > .containerBgFooter > .logoBaixo > #logoTaekwondo{
         width: 900px;
         height: 740px;
     }
-    footer > .containerBgFooter > .logoBaixo > #logoSucesso{
+    #logoSucesso{
         margin: 0 60px 0 50px;
     }
 }
@@ -414,7 +414,7 @@ footer > .containerBgFooter > .logoBaixo > #logoTaekwondo{
         row-gap: 30px;
         align-items: center;
     }
-    footer > .containerBgFooter > .logoBaixo > #logoSucesso{
+    #logoSucesso{
         margin: 0;
     }
 }
@@ -489,7 +489,7 @@ footer > .containerBgFooter > .logoBaixo > #logoTaekwondo{
         row-gap: 30px;
         align-items: center;
     }
-    footer > .containerBgFooter > .logoBaixo > #logoSucesso{
+    #logoSucesso{
         margin: 0;
     }
 }
@@ -568,7 +568,7 @@ footer > .containerBgFooter > .logoBaixo > #logoTaekwondo{
         row-gap: 30px;
         align-items: center;
     }
-    footer > .containerBgFooter > .logoBaixo > #logoSucesso{
+    #logoSucesso{
         margin: 0;
     }
 }
@@ -646,7 +646,7 @@ footer > .containerBgFooter > .logoBaixo > #logoTaekwondo{
         row-gap: 30px;
         align-items: center;
     }
-    footer > .containerBgFooter > .logoBaixo > #logoSucesso{
+    #logoSucesso{
         margin: 0;
     }
 }
