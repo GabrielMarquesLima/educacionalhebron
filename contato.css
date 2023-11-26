@@ -177,6 +177,9 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
     #containerContatos > a > .botao > h2{
         font-size: 32px;
     }
+    main > picture{
+        width: 97vw;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px){
     main > .containerContatos{
@@ -202,7 +205,7 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
         font-size: 32px;
     }
     main > picture{
-        width: 100vw;
+        width: 97vw;
     }
     main > picture > img{
         width: 270px;
@@ -261,7 +264,7 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
         font-size: 22px;
     }
     main > picture{
-        width: 100vw;
+        width: 97vw;
         margin-top: -50px;
     }
     main > picture > img{
@@ -337,7 +340,7 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
         font-size: 20px;
     }
     main > picture{
-        width: 100vw;
+        width: 97vw;
         margin-top: -50px;
     }
     main > picture > img{
@@ -419,7 +422,7 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
         font-size: 18px;
     }
     main > picture{
-        width: 100vw;
+        width: 97vw;
         margin-top: -35px;
     }
     main > picture > img{
@@ -510,7 +513,7 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
         font-size: 18px;
     }
     main > picture{
-        width: 100vw;
+        width: 97vw;
         margin-top: -15px;
     }
     main > picture > img{
