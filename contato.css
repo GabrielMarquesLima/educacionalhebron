@@ -135,6 +135,9 @@ main > .containerMaps > .parteBaixo > .maps{
     align-items: center;
     justify-content: center;
 }
+main > .containerMaps > .parteBaixo > .maps > iframe{
+    border-radius: 15px;
+}
 main > .containerMaps > .parteBaixo > .subtitulo{
     width: 800px;
     height: 60px;
@@ -219,6 +222,7 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
 @media (min-width: 768px) and (max-width: 991px){
     main > .containerContatos{
         width: 100vw;
+        height: 1050px;
         border-radius: 0;
         margin-top: -100px;
     }
@@ -231,38 +235,38 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
         height: 584px;
     }
     main > .containerContatos > .redes{
-        width: 500px;
+        width: 430px;
         height: 430px;
         margin-top: -215px;
     }
     main > .containerContatos > .redes > a > .botao,
     #containerEventos > a > .botao{
-        width: 280px;
-        height: 75px;
+        width: 250px;
+        height: 68px;
     }
     main > .containerContatos > .redes > a > .botao > picture > img,
     #containerEventos > a > .botao > picture > img{
-        width: 45px;
-        height: 45px;
-        margin: 0 20px 0 25px;
+        width: 42px;
+        height: 42px;
+        margin: 0 15px 0 20px;
     }
     main > .containerContatos > .redes > a > .botao > h2,
     #containerEventos > a > .botao > h2{
-        font-size: 30px;
+        font-size: 28px;
     }
     #subContainer{
-        width: 430px;
+        width: 380px;
     }
     #subContainer > h2{
-        font-size: 24px;
+        font-size: 22px;
     }
     main > picture{
         width: 100vw;
-        margin-top: -90px;
+        margin-top: -50px;
     }
     main > picture > img{
-        width: 218px;
-        height: 285px;
+        width: 184px;
+        height: 228px;
     }
     main > .containerMaps{
         margin-top: -60px;
@@ -274,13 +278,278 @@ main > .containerMaps > .parteBaixo > .subtitulo > h2{
     main > .containerMaps > .parteBaixo > .maps > iframe{
         width: 700px;
     }
+    main > .containerMaps > .titulo{
+        width: 320px;
+    }
+    main > .containerMaps > .titulo > h2{
+        font-size: 26px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo{
+        width: 650px;
+        height: 55px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo > h2{
+        font-size: 22px;
+    }
 }
-/* @media (min-width: 576px) and (max-width: 767px){
-
-} */
-/* @media (min-width: 320px) and (max-width: 575px){
-
-} */
-/* @media (min-width: 280px) and (max-width: 319px){
-
-} */
+@media (min-width: 576px) and (max-width: 767px){
+    main > .containerContatos{
+        width: 100vw;
+        height: 880px;
+        border-radius: 0;
+        margin-top: -100px;
+    }
+    #lapisFoguete{
+        width: 267px;
+        height: 124px;
+        margin: 30px 0 40px 0;
+    }
+    #banner-contatos{
+        width: 434px;
+        height: 463px;
+    }
+    main > .containerContatos > .redes{
+        width: 390px;
+        height: 350px;
+        margin-top: -170px;
+    }
+    main > .containerContatos > .redes > a > .botao,
+    #containerEventos > a > .botao{
+        width: 230px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    main > .containerContatos > .redes > a > .botao > picture > img,
+    #containerEventos > a > .botao > picture > img{
+        width: 40px;
+        height: 40px;
+        margin: 0 15px 0 20px;
+    }
+    main > .containerContatos > .redes > a > .botao > h2,
+    #containerEventos > a > .botao > h2{
+        font-size: 26px;
+    }
+    #subContainer{
+        width: 350px;
+        height: 45px;
+    }
+    #subContainer > h2{
+        font-size: 20px;
+    }
+    main > picture{
+        width: 100vw;
+        margin-top: -50px;
+    }
+    main > picture > img{
+        width: 184px;
+        height: 228px;
+    }
+    main > .containerMaps{
+        margin-top: -60px;
+    }
+    main > .containerMaps > .parteBaixo > .maps{
+        width: 500px;
+        height: 380px;
+    }
+    main > .containerMaps > .parteBaixo > .maps > iframe{
+        width: 490px;
+        height: 370px;
+    }
+    main > .containerMaps > .titulo{
+        width: 260px;
+        height: 50px;
+        border-radius: 15px;
+        margin-bottom: -20px;
+    }
+    main > .containerMaps > .titulo > h2{
+        font-size: 22px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo{
+        width: 520px;
+        height: 55px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo > h2{
+        font-size: 18px;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px){
+    main > .containerContatos{
+        width: 100vw;
+        height: 800px;
+        border-radius: 0;
+        margin-top: -100px;
+    }
+    #lapisFoguete{
+        width: 234px;
+        height: 109px;
+        margin: 30px 0 40px 0;
+    }
+    #banner-contatos{
+        width: 391px;
+        height: 416px;
+        overflow: hidden;
+    }
+    main > .containerContatos > .redes{
+        width: 290px;
+        height: 350px;
+        margin-top: -170px;
+    }
+    main > .containerContatos > .redes > a > .botao,
+    #containerEventos > a > .botao{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    main > .containerContatos > .redes > a > .botao > picture > img,
+    #containerEventos > a > .botao > picture > img{
+        width: 35px;
+        height: 35px;
+        margin: 0 10px 0 15px;
+    }
+    main > .containerContatos > .redes > a > .botao > h2,
+    #containerEventos > a > .botao > h2{
+        font-size: 24px;
+    }
+    #subContainer{
+        width: 270px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    #subContainer > h2{
+        font-size: 18px;
+    }
+    main > picture{
+        width: 100vw;
+        margin-top: -35px;
+    }
+    main > picture > img{
+        width: 157px;
+        height: 205px;
+    }
+    main > .containerMaps{
+        margin-top: -30px;
+    }
+    main > .containerMaps > .parteBaixo{
+        row-gap: 5px;
+    }
+    main > .containerMaps > .parteBaixo > .maps{
+        width: 300px;
+        height: 300px;
+        align-items: baseline;
+        border-radius: 0 0 15px 15px;
+    }
+    main > .containerMaps > .parteBaixo > .maps > iframe{
+        width: 290px;
+        height: 290px;
+        border-radius: 0 0 15px 15px;
+    }
+    main > .containerMaps > .titulo{
+        width: 300px;
+        height: 45px;
+        border-radius: 10px 10px 0 0;
+        margin: 0;
+    }
+    main > .containerMaps > .titulo > h2{
+        font-size: 22px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo{
+        width: 280px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo > h2{
+        font-size: 18px;
+        text-align: center;
+    }
+} 
+@media (min-width: 280px) and (max-width: 319px){
+    main > .containerContatos{
+        width: 100vw;
+        height: 670px;
+        border-radius: 0;
+        margin-top: -100px;
+    }
+    #lapisFoguete{
+        width: 234px;
+        height: 109px;
+        margin: 25px 0 30px 0;
+    }
+    #banner-contatos{
+        width: 275px;
+        height: 293px;
+        overflow: hidden;
+    }
+    main > .containerContatos > .redes{
+        width: 275px;
+        height: 300px;
+        margin-top: -110px;
+        border-radius: 15px;
+    }
+    main > .containerContatos > .redes > a > .botao,
+    #containerEventos > a > .botao{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    main > .containerContatos > .redes > a > .botao > picture > img,
+    #containerEventos > a > .botao > picture > img{
+        width: 35px;
+        height: 35px;
+        margin: 0 10px 0 15px;
+    }
+    main > .containerContatos > .redes > a > .botao > h2,
+    #containerEventos > a > .botao > h2{
+        font-size: 24px;
+    }
+    #subContainer{
+        width: 270px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    #subContainer > h2{
+        font-size: 18px;
+    }
+    main > picture{
+        width: 100vw;
+        margin-top: -15px;
+    }
+    main > picture > img{
+        width: 127px;
+        height: 166px;
+    }
+    main > .containerMaps{
+        margin-top: -35px;
+    }
+    main > .containerMaps > .parteBaixo{
+        row-gap: 5px;
+    }
+    main > .containerMaps > .parteBaixo > .maps{
+        width: 275px;
+        height: 275px;
+        align-items: baseline;
+        border-radius: 0 0 15px 15px;
+    }
+    main > .containerMaps > .parteBaixo > .maps > iframe{
+        width: 265px;
+        height: 265px;
+        border-radius: 0 0 15px 15px;
+    }
+    main > .containerMaps > .titulo{
+        width: 275px;
+        height: 45px;
+        border-radius: 10px 10px 0 0;
+        margin: 0;
+    }
+    main > .containerMaps > .titulo > h2{
+        font-size: 22px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo{
+        width: 280px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    main > .containerMaps > .parteBaixo > .subtitulo > h2{
+        font-size: 18px;
+        text-align: center;
+    }
+}
