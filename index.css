@@ -1,3 +1,14 @@
+@keyframes balancar {
+    5% {
+        transform: rotate(0deg);
+    }
+    45% {
+        transform: rotate(-10deg);
+    }
+    4% {
+        transform: rotate(0deg);
+    }
+}
 main{
     margin-top: -400px;
 }
@@ -86,11 +97,11 @@ main > picture > img{
 /* Animações dos botões:*/
 main > img:hover,
 main > img:active,
-main > .containerMVV > img:hover,
-main > .containerMVV > img:active,
+main > .containerMVV > picture > img:hover,
+main > .containerMVV > picture > img:active,
 main > .escolaridades > .containerCard > img:hover,
 main > .escolaridades > .containerCard > img:active,
-main > .containerExplicacao > #skate-brinquedo:hover , main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:hover,
+#skate-brinquedo:hover , main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:hover,
 main > .containerExplicacao > #skate-brinquedo:active, main > .containerExplicacao > .containerBolaFutebol-brinquedo > img:active{
     animation: balancar 2.5s infinite;
 }
@@ -106,17 +117,6 @@ main > .escolaridades{
 }
 main > .escolaridades > .containerCard{
     margin-top: -38px;
-}
-@keyframes balancar {
-    5% {
-        transform: rotate(0deg);
-    }
-    45% {
-        transform: rotate(-10deg);
-    }
-    4% {
-        transform: rotate(0deg);
-    }
 }
 main > .escolaridades > .containerCard > img{
     width: 60px;
