@@ -76,7 +76,7 @@ body > header > .containerNav > nav > a > img:hover{
 }
 body > header > .containerNav > nav > a > h2{
     color: rgba(255, 255, 255, 0.664);
-    font-family: Dosis;
+    font-family: Dosis, sans-serif;
     font-size: 30px;
     font-weight: 600;
     transition: 0.01s;
@@ -124,7 +124,7 @@ main > a > .containerBM > .botaoMaterial{
 main > a > .containerBM > .botaoMaterial > h2{
     color: rgba(255, 255, 255, 0.664);
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
@@ -209,7 +209,7 @@ footer > .containerBgFooter > .logosCima > img{
 footer > .containerBgFooter > h3{
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 18px;
     font-weight: 400;
     margin-top: 42px;
@@ -232,7 +232,7 @@ footer > .containerBgFooter > .bgParceiros{
 footer > .containerBgFooter > .bgParceiros > h2{
     color: #4C4A59;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 28px;
     font-weight: 400;
 }

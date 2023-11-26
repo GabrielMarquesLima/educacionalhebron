@@ -116,7 +116,7 @@ main > .containerMaps > .titulo{
 }
 main > .containerMaps > .titulo > h2{
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 28px;
     font-weight: 500;
 }
@@ -150,7 +150,7 @@ main > .containerMaps > .parteBaixo > .subtitulo{
 }
 main > .containerMaps > .parteBaixo > .subtitulo > h2{
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 26px;
     font-weight: 500;
 }
