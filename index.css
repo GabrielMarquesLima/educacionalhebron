@@ -26,7 +26,7 @@ main .banner > a > .bgTexto:hover{
 }
 main > .banner > a > .bgTexto > h2{
     color: #ffffff;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
     font-weight: 500;
 }
@@ -64,7 +64,7 @@ main .containerMVV > .bgMVV > .card > picture > img{
 }
 main > .containerMVV > .bgMVV > .card > h2{
     color: #4C4A59;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 45px;
@@ -72,7 +72,7 @@ main > .containerMVV > .bgMVV > .card > h2{
 main > .containerMVV > .bgMVV > .card > h3{
     color: #4C4A59;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     width: 280px;
@@ -163,14 +163,14 @@ main > .escolaridades > .containerCard > .card > .containerIT > .bgTitulo{
 main > .escolaridades > .containerCard > .card > .containerIT > .bgTitulo > h2{
     color: #4C4A59;
     text-align: center;
-    font-family: Dosis, sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 21px;
     font-weight: 700;
 }
 main > .escolaridades > .containerCard > .card > h3{
     color: #FFF;
     text-align: center;
-    font-family: Dosis, sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 20px;
     font-weight: 600;
     width: 261px;
@@ -206,7 +206,7 @@ main > .containerExplicacao > .bg > .bgTexto{
 main > .containerExplicacao > .bg > .bgTexto > h2{
     color: rgba(255, 255, 255, 0.80);
     text-align: center;
-    font-family: Dosis, sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 25px;
     font-weight: 700;
     width: 750px;
