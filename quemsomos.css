@@ -1,0 +1,438 @@
+main > .titulo{
+    width: 293px;
+    height: 82px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C4A59;
+    margin: -280px 0 80px 0;
+}
+main > .titulo > h2{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+}
+#foto-quemsomos > img{
+    width: 910.8px;
+    height: 665.5px;
+    margin: 0px 0 -110px 0;
+}
+main > .containerTexto > .parteCima{
+    width: 1306px;
+    display: flex;
+    justify-content: space-between;
+}
+main > .containerTexto > .parteCima > .bgTitulo{
+    width: 390px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -30px;
+    position: relative;
+}
+main > .containerTexto > .parteCima > .bgTitulo h1{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+#ioio-brinquedo{
+    margin: 0 -20px -80px 0;
+}
+#ioio-brinquedo > img{
+    width: 60px;
+    height: 68px;
+    position: relative;
+}
+#bolaquemsomos > img{
+    width: 52px;
+    height: 74px;
+    margin: 0 -20px -50px 0;
+}
+main > .containerTexto > .bgTexto{
+    width: 1306px;
+    height: auto;
+    background-color: #4C4A59;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > .containerTexto > .bgTexto > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.528px;
+    width: 95%;
+    margin: 50px 0 30px 0;
+}
+#dinossauroQuemsomos{
+    margin: -10px 0 -60px 0;
+    position: relative;
+}
+#dinossauroQuemsomos > img{
+    width: 129px;
+    height: 169px;
+}
+#pipaQuemsomos{
+    width: 100%;
+}
+#pipaQuemsomos > img{
+    width: 141px;
+    height: 290px;
+    margin: -550px 0 400px 0;
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    main > .containerTexto > .parteCima{
+        width: 1100px;
+    }
+    #foto-quemsomos > img{
+        width: 819px;
+        height: 598px;
+    }
+    main > .containerTexto > .parteCima > .titulo{
+        width: 351px;
+        height: 54px;
+    }
+    main > .containerTexto > .parteCima > .titulo > h1{
+        font-size: 28px;
+    }
+    #ioio-brinquedo{
+        margin: 0 -20px -40px 0;
+    }
+    main > .containerTexto > .bgTexto{
+        width: 1100px;
+    }
+    main > .containerTexto > .bgTexto > h2{
+        font-size: 26px;
+    }
+    #pipaQuemsomos{
+        width: 100%;
+    }
+    #pipaQuemsomos > img{
+        width: 126.96px;
+        height: 261.27px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .titulo{
+        width: 237px;
+        height: 66px;
+        border-radius: 15px;
+    }
+    main > .titulo > h2{
+        font-size: 28px;
+    }
+    main > .containerTexto > .parteCima{
+        width: 952px;
+    }
+    #foto-quemsomos > img{
+        width: 663px;
+        height: 485px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo{
+        width: 284px;
+        height: 44px;
+        border-radius: 8px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo > h1{
+        font-size: 24px;
+    }
+    #ioio-brinquedo{
+        margin: 0 -10px -40px 0;
+    }
+    #ioio-brinquedo > img{
+        width: 54px;
+        height: 61px;
+    }
+    #bolaquemsomos > img{
+        width: 42px;
+        height: 60px;
+        margin: 0 -12px -30px 0;
+    }
+    main > .containerTexto > .bgTexto{
+        width: 952px;
+        border-radius: 12px;
+    }
+    main > .containerTexto > .bgTexto > h2{
+        font-size: 26px;
+    }
+    #dinossauroQuemsomos > img{
+        width: 116px;
+        height: 152px;
+    }
+    #pipaQuemsomos > img{
+        width: 91px;
+        height: 188px;
+        margin: -700px 0 400px 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .titulo{
+        width: 237px;
+        height: 66px;
+        border-radius: 15px;
+        margin: -150px 0 60px 0;
+    }
+    main > .titulo > h2{
+        font-size: 28px;
+    }
+    main > .containerTexto > .parteCima{
+        width: 690px;
+    }
+    #foto-quemsomos > img{
+        width: 597px;
+        height: 436px;
+        margin-bottom: -70px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo{
+        width: 256px;
+        height: 39px;
+        border-radius: 8px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo > h1{
+        font-size: 22px;
+    }
+    #ioio-brinquedo{
+        margin: 0 -10px -40px 0;
+    }
+    #ioio-brinquedo > img{
+        width: 54px;
+        height: 61px;
+    }
+    #bolaquemsomos > img{
+        width: 42px;
+        height: 60px;
+        margin: 0 -12px -30px 0;
+    }
+    main > .containerTexto > .bgTexto{
+        width: 690px;
+        border-radius: 12px;
+    }
+    main > .containerTexto > .bgTexto > h2{
+        font-size: 18px;
+        margin: 25px 0 15px 0;
+    }
+    #dinossauroQuemsomos{
+        margin: -5  px 0 -50px 0;
+    }
+    #dinossauroQuemsomos > img{
+        width: 104px;
+        height: 136px;
+    }
+    #pipaQuemsomos > img{
+        width: 91px;
+        height: 188px;
+        margin: -380px 0 270px 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > .titulo{
+        width: 237px;
+        height: 66px;
+        border-radius: 15px;
+        margin: -80px 0 80px 0;
+    }
+    main > .titulo > h2{
+        font-size: 28px;
+    }
+    main > .containerTexto > .parteCima{
+        width: 520px;
+    }
+    #foto-quemsomos > img{
+        width: 478px;
+        height: 349px;
+        margin-bottom: -50px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo{
+        width: 204px;
+        height: 31px;
+        border-radius: 6px;
+
+    }
+    main > .containerTexto > .parteCima > .bgTitulo > h1{
+        font-size: 18px;
+    }
+    #ioio-brinquedo{
+        margin: 0 -12px -45px 0;
+    }
+    #ioio-brinquedo > img{
+        width: 49px;
+        height: 55px;
+    }
+    #bolaquemsomos > img{
+        width: 38px;
+        height: 54px;
+        margin: 0 -10px -40px 0;
+    }
+    main > .containerTexto > .bgTexto{
+        width: 520px;
+        border-radius: 10px;
+    }
+    main > .containerTexto > .bgTexto > h2{
+        font-size: 18px;
+        margin: 25px 0 15px 0;
+    }
+    #dinossauroQuemsomos{
+        margin: 10px 0 -20px 0;
+    }
+    #dinossauroQuemsomos > img{
+        width: 104px;
+        height: 136px;
+    }
+    #pipaQuemsomos > img{
+        width: 91px;
+        height: 188px;
+        margin: -500px 0 400px 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px){
+    main > .titulo{
+        width: 189px;
+        height: 53px;
+        border-radius: 12px;
+        margin: -80px 0 80px 0;
+    }
+    main > .titulo > h2{
+        font-size: 22px;
+    }
+    main > .containerTexto > .parteCima{
+        width: 300px;
+    }
+    #foto-quemsomos > img{
+        width: 320px;
+        height: 320px;
+        margin-bottom: -50px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo{
+        width: 204px;
+        height: 31px;
+        border-radius: 6px;
+        margin-bottom: -15px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo > h1{
+        font-size: 18px;
+    }
+    #ioio-brinquedo{
+        display: none;
+    }
+    #ioio-brinquedo > img{
+        width: 49px;
+        height: 55px;
+    }
+    #bolaquemsomos{
+        display: none;
+    }
+    #bolaquemsomos > img{
+        width: 38px;
+        height: 54px;
+        margin: 0 -10px -40px 0;
+    }
+    main > .containerTexto > .bgTexto{
+        width: 100vw;
+        max-width: 400px;
+        border-radius: 8px;
+    }
+    main > .containerTexto > .bgTexto > h2{
+        font-size: 16px;
+        margin: 30px 0 15px 0;
+    }
+    #dinossauroQuemsomos{
+        margin: 10px 0 0px 0;
+    }
+    #dinossauroQuemsomos > img{
+        width: 104px;
+        height: 136px;
+    }
+    #pipaQuemsomos{
+        display: none;
+    }
+    #pipaQuemsomos > img{
+        width: 91px;
+        height: 188px;
+        margin: -500px 0 400px 0;
+    }
+    #baixo{
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 280px) and (max-width: 319px){
+    main > .titulo{
+        width: 189px;
+        height: 53px;
+        border-radius: 12px;
+        margin: -80px 0 80px 0;
+    }
+    main > .titulo > h2{
+        font-size: 22px;
+    }
+    main > .containerTexto > .parteCima{
+        width: 300px;
+    }
+    #foto-quemsomos > img{
+        width: 320px;
+        height: 320px;
+        margin-bottom: -50px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo{
+        width: 204px;
+        height: 31px;
+        border-radius: 6px;
+        margin-bottom: -15px;
+    }
+    main > .containerTexto > .parteCima > .bgTitulo > h1{
+        font-size: 18px;
+    }
+    #ioio-brinquedo{
+        display: none;
+    }
+    #ioio-brinquedo > img{
+        width: 49px;
+        height: 55px;
+    }
+    #bolaquemsomos{
+        display: none;
+    }
+    #bolaquemsomos > img{
+        width: 38px;
+        height: 54px;
+        margin: 0 -10px -40px 0;
+    }
+    main > .containerTexto > .bgTexto{
+        width: 100vw;
+        max-width: 400px;
+        border-radius: 8px;
+    }
+    main > .containerTexto > .bgTexto > h2{
+        font-size: 16px;
+        margin: 30px 0 15px 0;
+    }
+    #dinossauroQuemsomos{
+        margin: 10px 0 0px 0;
+    }
+    #dinossauroQuemsomos > img{
+        width: 104px;
+        height: 136px;
+    }
+    #pipaQuemsomos{
+        display: none;
+    }
+    #pipaQuemsomos > img{
+        width: 91px;
+        height: 188px;
+        margin: -500px 0 400px 0;
+    }
+    #baixo{
+        margin-bottom: 40px;
+    }
+}
