@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./layout.css">
+    <link rel="stylesheet" href="./eventos.css">
+    <title>Instituto Educacional Hebron</title>
+</head>
+<body>
+    <header>
+        <div class="containerQuebraCabecaEsquerdo-header">
+            <img src="./img/quebraCabecaEsquerdo-header.webp" id="quebraCabecaEsquerdo-header" alt="Imagem de Quebra Cabeça ao fundo">
+        </div>
+        <div class="containerNav">
+            <nav>
+                <a href="index.html">
+                    <img src="./img/home-icone.webp" alt="Ícone de casa">
+                </a>
+                <a href="contato.html"><h2>Contato</h2></a>
+                <hr>
+                <a href="eventos.html"><h2>Eventos</h2></a>
+                <hr>
+                <a href="quemSomos.html"><h2>Quem Somos</h2></a>
+            </nav>
+        </div>
+        <div class="containerQuebraCabecaDireito-header">
+            <img src="./img/quebraCabecaDireito-header.webp" id="quebraCabecaDireito-header" alt="Imagem de Quebra Cabeça ao fundo">
+        </div>
+    </header>
+    <main>
+        <div class="titulo">
+            <h2>Fique por dentro dos nossos eventos!</h2>
+        </div>
+        <div class="containerEventos">
+            <div class="containerCard">
+                <div class="bgIcone">
+                    <picture>
+                        <img src="./img/calendario-icone.webp" alt="Calendário icone">
+                    </picture>
+                </div>
+                <div class="bgCard">
+                    <picture>
+                        <source media="(min-width: 320px) and (max-width: 575px)" srcset="./img/formatura-evento4.webp">
+                        <source media="(min-width: 576px) and (max-width: 1199px)" srcset="./img/formatura-evento3.webp">
+                        <source media="(min-width: 1200px) and (max-width: 1399px)" srcset="./img/formatura-evento2.webp">
+                        <img src="./img/formatura-evento.webp" alt="Evento formatura do pré">
+                    </picture>
+                    <div class="data">
+                        <h3>22/12/2023</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="containerCard">
+                <div class="bgIcone">
+                    <picture>
+                        <img src="./img/calendario-icone.webp" alt="Calendário icone">
+                    </picture>
+                </div>
+                <div class="bgCard">
+                    <picture id="cardVazio">
+                        <!-- <img src="" alt="Evento"> -->
+                    </picture>
+                    <div class="data">
+                        <h3>--/--/--</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="containerCard">
+                <div class="bgIcone">
+                    <picture>
+                        <img src="./img/calendario-icone.webp" alt="Calendário icone">
+                    </picture>
+                </div>
+                <div class="bgCard">
+                    <picture id="cardVazio">
+                        <!-- <img src="" alt="Evento"> -->
+                    </picture>
+                    <div class="data">
+                        <h3>--/--/--</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <picture id="pipaCanto">
+            <source media="(max-width: 575px)" srcset="./img/pipaCanto-brinquedo5.webp">
+            <source media="(min-width: 576px) and (max-width: 767px)" srcset="./img/pipaCanto-brinquedo4.webp">
+            <source media="(min-width: 768px) and (max-width: 1199px)" srcset="./img/pipaCanto-brinquedo3.webp">
+            <source media="(min-width: 1200px) and (max-width: 1399px)" srcset="./img/pipaCanto-brinquedo2.webp">
+            <img src="./img/pipaCanto-brinquedo.webp" alt="Pipa de brinquedo">
+        </picture>
+        <picture id="tremBrinquedo">
+            <source media="(max-width: 575px)" srcset="./img/trem-brinquedo5.webp">
+            <source media="(min-width: 576px) and (max-width: 767px)" srcset="./img/trem-brinquedo4.webp">
+            <source media="(min-width: 768px) and (max-width: 1199px)" srcset="./img/trem-brinquedo3.webp">
+            <source media="(min-width: 1200px) and (max-width: 1399px)" srcset="./img/trem-brinquedo2.webp">
+            <img src="./img/trem-brinquedo.webp" alt="Trem de brinquedo">
+        </picture>
+        <div class="bgDuvidas">
+            <h2>Dúvidas?</h2>
+        </div>
+        <picture id="aviaozinhoBrinquedo">
+            <source media="(max-width: 575px)" srcset="./img/aviaozinhoPapel3.webp">
+            <source media="(min-width: 576px) and (max-width: 1199px)" srcset="./img/aviaozinhoPapel2.webp">
+            <img src="./img/aviaozinhoPapel.webp" alt="Aviãozinho de papel">
+        </picture>
+        <div class="redes">
+            <a href="#">
+                <div class="botao">
+                    <picture>
+                        <img src="./img/whatsappEscuro-icone.webp" alt="Ícone WhatsApp">
+                    </picture>
+                    <h2>WhatsApp</h2>
+                </div>
+            </a>
+            <a href="#">
+                <div class="botao">
+                    <picture>
+                        <img src="./img/email-icone.webp" alt="Ícone e-mail">
+                    </picture>
+                    <h2>E-mail</h2>
+                </div>
+            </a>
+            <a href="#">
+                <div class="botao">
+                    <picture>
+                        <img src="./img/instagramEscuro-icone.webp" alt="Ícone Instagram">
+                    </picture>
+                    <h2>Instagram</h2>
+                </div>
+            </a>
+        </div>
+        <picture id="caminhaoBrinquedo">
+            <source media="(max-width: 575)" srcset="./img/caminhao-brinquedo4.webp">
+            <source media="(min-width: 576px) and (max-width: 767)" srcset="./img/caminhao-brinquedo3.webp">
+            <source media="(min-width: 768px) and (max-width: 1199px)" srcset="./img/caminhao-brinquedo2.webp">
+            <img src="./img/caminhao-brinquedo.webp" alt="Caminhão  de brinquedo">
+        </picture>
+        <a href="*">
+            <div class="containerBM">
+                <div class="botaoMaterial">
+                    <h2>Lista de material didático</h2>
+                </div>
+                <div class="bgIcone">
+                    <img src="./img/click-icone.webp" alt="Ícone de click">
+                </div>
+            </div>
+        </a>
+    </main>
+    <footer>
+        <img src="./img/foguete-fundo.webp" alt="Imagem de foguete ao fundo">
+        <div class="containerBgFooter">
+            <div class="logosCima">
+                <img src="./img/hebron-logo.webp" alt="Logo do instituto educacional Hebron">
+                <img src="./img/mindArt-logo.webp" alt="Logo da Mind.Art">
+            </div>
+            <h3>Endereço: R. Penápolis, 421/427 - Vila Pereta, Poá - SP, 08564-200</h3>
+            <hr>
+            <div class="bgParceiros">
+                <h2>Parceiros:</h2>
+            </div>
+            <div class="logoBaixo">
+                <img src="./img/ballet-logo.webp" id="logoBallet" alt="Logo sala de Ballet da Fe">
+                <img src="./img/sucesso-logo.webp" id="logoSucesso" alt="Logo empresa Sucesso">
+                <img src="./img/taekwondo-logo.webp" id="logoTaekwondo" alt="Logo escola de Taekwondo">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

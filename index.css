@@ -95,8 +95,8 @@ main > picture > img{
     height: 141px;
 }
 /* Animações dos botões:*/
-main > img:hover,
-main > img:active,
+main > picture > img:hover,
+main > picture > img:active,
 main > .containerMVV > picture > img:hover,
 main > .containerMVV > picture > img:active,
 main > .escolaridades > .containerCard > img:hover,

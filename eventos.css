@@ -1,0 +1,698 @@
+main > .titulo{
+    width: 611px;
+    height: 84px;
+    background-color: #4C4A59;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+}
+main > .titulo > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+}
+main > .containerEventos{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 150px;
+    width: 80vw;
+    justify-content: center;
+    margin-top: 150px;
+}
+main > .containerEventos > .containerCard > .bgIcone{
+     width: 60px;
+     height: 60px;
+     background-color: #4C4A59;
+     border-radius: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 0 -35px -25px;
+     position: relative;
+}
+main > .containerEventos > .containerCard > .bgIcone > picture > img{
+    width: 45px;
+    height: 45px;
+}
+main > .containerEventos > .containerCard > .bgCard{
+    width: 450px;
+    height: 550px;
+    background-color: #4C4A59;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cardVazio{
+    width: 430px;
+    height: 450px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin: 10px 0 15px 0;
+}
+main > .containerEventos > .containerCard > .bgCard > picture > img{
+    width: 430px;
+    height: 450px;
+    margin: 10px 0 15px 0;
+    border-radius: 20px;
+}
+main > .containerEventos > .containerCard > .bgCard > .data{
+    width: 185px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+main > .containerEventos > .containerCard > .bgCard > .data > h3{
+    color: #4C4A59;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+}
+#pipaCanto{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: -600px;
+}
+#pipaCanto > img{
+    width: 215px;
+    height: 402px;
+}
+#tremBrinquedo{
+    margin-top: 200px;
+    width: 100%;
+}
+#tremBrinquedo > img{
+    margin-left: 200px;
+}
+main > .bgDuvidas{
+    width: 220px;
+    height: 90px;
+    background-color: #4C4A59;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > .bgDuvidas > h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+#aviaozinhoBrinquedo > img{
+    width: 80px;
+    height: 80px;
+    margin: 5px 0 10px 240px;
+}
+main > .redes{
+    width: 466px;
+    height: 428px;
+    background-color: #4C4A59;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+main > .redes > a > .botao{
+    width: 380px;
+    height: 85px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+main > .redes > a > .botao:hover,
+main > .redes > a > .botao:active{
+    transform: scale(1.05);
+}
+main > .redes > a > .botao > picture > img{
+    margin: 0 30px 0 30px;
+}
+main > .redes > a > .botao > h2{
+    color: #4C4A59;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+#caminhaoBrinquedo{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 30px 0 60px 0;
+}
+#caminhaoBrinquedo > img{
+    width: 170px;
+    height: 148px;
+}
+#tremBrinquedo > img:hover,
+#tremBrinquedo > img:active,
+#aviaozinhoBrinquedo > img:hover,
+#aviaozinhoBrinquedo > img:active,
+#caminhaoBrinquedo > img:hover,
+#caminhaoBrinquedo > img:active{
+    animation: balancar 2.5s infinite;
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    main > .titulo{
+        width: 550px;
+        height: 75px;
+        margin-top: -350px;
+    }
+    main > .titulo > h2{
+        font-size: 26px;
+    }
+    main > .containerEventos{
+        row-gap: 80px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone{
+        width: 54px;
+        height: 54px;
+        border-radius: 13.5px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone > picture > img{
+        width: 40.5px;
+        height: 40.5px;
+    }
+    main > .containerEventos > .containerCard > .bgCard{
+        width: 405px;
+        height: 495px;
+        border-radius: 18px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > picture > img,
+    #cardVazio{
+        width: 387px;
+        height: 405px;
+        margin: 9px 0 13.5px 0;
+        border-radius: 18px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data{
+        width: 166.5px;
+        height: 54px;
+        border-radius: 18px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data > h3{
+        font-size: 26px;
+    }
+    #pipaCanto{
+        margin-top: -580px;
+    }
+    #pipaCanto > img{
+        width: 193.5px;
+        height: 361.8px;
+    }
+     #tremBrinquedo > img{
+        width: 180px;
+        height: 253px;
+     }
+     main > .bgDuvidas{
+        width: 198px;
+        height: 82.8px;
+        border-radius: 18px;
+     }
+     main > .bgDuvidas > h2{
+        font-size: 32px;
+     }
+     main > .redes{
+        width: 419px;
+        height: 385px;
+        border-radius: 18px;
+     }
+     main > .redes > a > .botao{
+        width: 323px;
+        height: 76px;
+     }
+     main > .redes > a > .botao > picture > img{
+        width: 45px;
+        height: 45px;
+     }
+     main > .redes > a > .botao > h2{
+        font-size: 36px;
+     }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .titulo{
+        width: 494px;
+        height: 68px;
+        border-radius: 16.2px;
+    }
+    main > .titulo > h2{
+        font-size: 24px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone{
+        width: 48px;
+        height: 48px;
+        border-radius: 12.15px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone > picture > img{
+        width: 38px;
+        height: 38px;
+    }
+    main > .containerEventos > .containerCard > .bgCard{
+        width: 364.5px;
+        height: 445.5px;
+        border-radius: 16.2px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > picture > img,
+    #cardVazio{
+        width: 348.3px;
+        height: 364.5px;
+        border-radius: 16.2px;
+        margin: 8.1px 0 12.5px 0;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data{
+        width: 149.85px;
+        height: 48.6px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data > h3{
+        font-size: 24px;
+    }
+    #pipaCanto > img{
+        width: 174.15px;
+        height: 325.62px;
+    }
+    #tremBrinquedo{
+        margin-top: 250px;
+    }
+    #tremBrinquedo > img{
+        width: 162px;
+        height: 228px;
+    }
+    main > .bgDuvidas{
+        width: 178.2px;
+        height: 74.52px;
+        border-radius: 16.2px;
+    }
+    main > .bgDuvidas > h2{
+        font-size: 28px;
+    }
+    #aviaozinhoBrinquedo > img{
+        width: 72px;
+        height: 72px;
+        margin: 0px 0 5px 190px;
+    }
+    main > .redes{
+        width: 350px;
+        height: 346px;
+        border-radius: 16.2px;
+    }
+    main > .redes > a > .botao{
+        width: 290px;
+        height: 68px;
+        border-radius: 12.5px;
+    }
+    main > .redes > a > .botao > picture > img{
+        width: 40.5px;
+        height: 40.5px;
+        margin: 0 25px 0 20px;
+    }
+    main > .redes > a > .botao > h2{
+        font-size: 32px
+    }
+    #caminhaoBrinquedo > img{
+        width: 153px;
+        height: 133.2px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .titulo{
+        width: 494px;
+        height: 68px;
+        border-radius: 16.2px;
+    }
+    main > .titulo > h2{
+        font-size: 24px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone{
+        width: 48px;
+        height: 48px;
+        border-radius: 12.15px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone > picture > img{
+        width: 38px;
+        height: 38px;
+    }
+    main > .containerEventos > .containerCard > .bgCard{
+        width: 364.5px;
+        height: 445.5px;
+        border-radius: 16.2px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > picture > img,
+    #cardVazio{
+        width: 348.3px;
+        height: 364.5px;
+        border-radius: 16.2px;
+        margin: 8.1px 0 12.5px 0;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data{
+        width: 149.85px;
+        height: 48.6px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data > h3{
+        font-size: 24px;
+    }
+    #pipaCanto > img{
+        width: 174.15px;
+        height: 325.62px;
+    }
+    #tremBrinquedo{
+        margin-top: 250px;
+    }
+    #tremBrinquedo > img{
+        width: 162px;
+        height: 228px;
+        margin-left: 100px;
+    }
+    main > .bgDuvidas{
+        width: 178.2px;
+        height: 74.52px;
+        border-radius: 16.2px;
+    }
+    main > .bgDuvidas > h2{
+        font-size: 28px;
+    }
+    #aviaozinhoBrinquedo > img{
+        width: 72px;
+        height: 72px;
+        margin: 0px 0 5px 190px;
+    }
+    main > .redes{
+        width: 350px;
+        height: 346px;
+        border-radius: 16.2px;
+    }
+    main > .redes > a > .botao{
+        width: 290px;
+        height: 68px;
+        border-radius: 12.5px;
+    }
+    main > .redes > a > .botao > picture > img{
+        width: 40.5px;
+        height: 40.5px;
+        margin: 0 25px 0 20px;
+    }
+    main > .redes > a > .botao > h2{
+        font-size: 32px
+    }
+    #caminhaoBrinquedo > img{
+        width: 153px;
+        height: 133.2px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > .titulo{
+        width: 445px;
+        height: 61px;
+        border-radius: 16.2px;
+        margin-top: 0px;
+    }
+    main > .titulo > h2{
+        font-size: 22px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone{
+        width: 48px;
+        height: 48px;
+        border-radius: 12.15px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone > picture > img{
+        width: 38px;
+        height: 38px;
+    }
+    main > .containerEventos > .containerCard > .bgCard{
+        width: 364.5px;
+        height: 445.5px;
+        border-radius: 16.2px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > picture > img,
+    #cardVazio{
+        width: 348.3px;
+        height: 364.5px;
+        border-radius: 16.2px;
+        margin: 8.1px 0 12.5px 0;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data{
+        width: 149.85px;
+        height: 48.6px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data > h3{
+        font-size: 24px;
+    }
+    #pipaCanto > img{
+        width: 141px;
+        height: 263px;
+    }
+    #tremBrinquedo{
+        margin-top: 350px;
+    }
+    #tremBrinquedo > img{
+        width: 131px;
+        height: 184px;
+        margin-left: 40px;
+    }
+    main > .bgDuvidas{
+        width: 160px;
+        height: 67px;
+        border-radius: 14.58px;
+    }
+    main > .bgDuvidas > h2{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    #aviaozinhoBrinquedo > img{
+        width: 72px;
+        height: 72px;
+        margin: 0px 0 5px 190px;
+    }
+    main > .redes{
+        width: 300px;
+        height: 312px;
+        border-radius: 14.58px;
+    }
+    main > .redes > a > .botao{
+        width: 261.71px;
+        height: 61.24px;
+        border-radius: 10.94px;
+    }
+    main > .redes > a > .botao > picture > img{
+        width: 36.45px;
+        height: 36.45px;
+        margin: 0 20px 0 15px;
+    }
+    main > .redes > a > .botao > h2{
+        font-size: 30px
+    }
+    #caminhaoBrinquedo > img{
+        width: 123px;
+        height: 107px;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px){
+    main > .titulo{
+        width: auto;
+        height: 61px;
+        border-radius: 12px;
+        margin-top: -80px;
+    }
+    main > .titulo > h2{
+        font-size: 18px;
+        margin: 0 10px 0 10px;
+    }
+    main > .containerEventos{
+        margin-top: 100px;
+    }
+    main > .containerEventos > .containerCard{
+        position: relative;
+    }
+    main > .containerEventos > .containerCard > .bgIcone{
+        width: 39px;
+        height: 39px;
+        border-radius: 10px;
+        margin: 0 0 -30px -12px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone > picture > img{
+        width: 29px;
+        height: 29px;
+    }
+    main > .containerEventos > .containerCard > .bgCard{
+        width: 295px;
+        height: 360px;
+        border-radius: 13px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > picture > img,
+    #cardVazio{
+        width: 282px;
+        height: 295px;
+        border-radius: 13px;
+        margin: 6px 0 9px 0;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data{
+        width: 121px;
+        height: 39px;
+        border-radius: 13px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data > h3{
+        font-size: 20px;
+    }
+    #pipaCanto{
+        margin-top: -510px;
+    }
+    #pipaCanto > img{
+        width: 101px;
+        height: 190px;
+    }
+    #tremBrinquedo{
+        margin-top: 320px;
+    }
+    #tremBrinquedo > img{
+        width: 104px;
+        height: 147px;
+        margin-left: 30px;
+    }
+    main > .bgDuvidas{
+        width: 129px;
+        height: 54px;
+        border-radius: 12px;
+    }
+    main > .bgDuvidas > h2{
+        font-size: 24px;
+    }
+    #aviaozinhoBrinquedo > img{
+        width: 64px;
+        height: 64px;
+        margin: 0px 0 5px 150px;
+    }
+    main > .redes{
+        width: 275px;
+        height: 252px;
+        border-radius: 12px;
+    }
+    main > .redes > a > .botao{
+        width: 211px;
+        height: 49px;
+        border-radius: 8.86px;
+    }
+    main > .redes > a > .botao > picture > img{
+        width: 29px;
+        height: 29px;
+        margin: 0 15px 0 10px;
+    }
+    main > .redes > a > .botao > h2{
+        font-size: 26px
+    }
+    #caminhaoBrinquedo > img{
+        width: 99px;
+        height: 86px;
+    }
+} 
+@media (min-width: 280px) and (max-width: 319px){
+    main > .titulo{
+        width: auto;
+        height: 61px;
+        border-radius: 12px;
+        margin-top: -80px;
+    }
+    main > .titulo > h2{
+        font-size: 18px;
+        margin: 0 10px 0 10px;
+    }
+    main > .containerEventos{
+        margin-top: 100px;
+    }
+    main > .containerEventos > .containerCard{
+        position: relative;
+    }
+    main > .containerEventos > .containerCard > .bgIcone{
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+        margin: 0 0 -30px -12px;
+    }
+    main > .containerEventos > .containerCard > .bgIcone > picture > img{
+        width: 26px;
+        height: 26px;
+    }
+    main > .containerEventos > .containerCard > .bgCard{
+        width: 265px;
+        height: 324px;
+        border-radius: 12px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > picture > img,
+    #cardVazio{
+        width: 253px;
+        height: 265px;
+        border-radius: 12px;
+        margin: 5px 0 8px 0;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data{
+        width: 109px;
+        height: 35px;
+        border-radius: 12px;
+    }
+    main > .containerEventos > .containerCard > .bgCard > .data > h3{
+        font-size: 18px;
+    }
+    #pipaCanto{
+        margin-top: -470px;
+    }
+    #pipaCanto > img{
+        width: 101px;
+        height: 190px;
+    }
+    #tremBrinquedo{
+        margin-top: 300px;
+    }
+    #tremBrinquedo > img{
+        width: 104px;
+        height: 147px;
+        margin-left: 30px;
+    }
+    main > .bgDuvidas{
+        width: 129px;
+        height: 54px;
+        border-radius: 12px;
+    }
+    main > .bgDuvidas > h2{
+        font-size: 24px;
+    }
+    #aviaozinhoBrinquedo > img{
+        width: 64px;
+        height: 64px;
+        margin: 0px 0 5px 150px;
+    }
+    main > .redes{
+        width: 275px;
+        height: 252px;
+        border-radius: 12px;
+    }
+    main > .redes > a > .botao{
+        width: 211px;
+        height: 49px;
+        border-radius: 8.86px;
+    }
+    main > .redes > a > .botao > picture > img{
+        width: 29px;
+        height: 29px;
+        margin: 0 15px 0 10px;
+    }
+    main > .redes > a > .botao > h2{
+        font-size: 26px
+    }
+    #caminhaoBrinquedo > img{
+        width: 99px;
+        height: 86px;
+    }
+}
